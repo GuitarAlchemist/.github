@@ -4,85 +4,120 @@
 
 We build composable systems where AI agents operate under principled governance — combining music theory, ML algorithms, neuro-symbolic reasoning, and constitutional alignment into a federated ecosystem.
 
-## Repositories
+**7 repos** | **200+ MCP tools** | **14 personas** | **21 policies** | **16 grammars** | **13 departments** | **6 languages** | **41 behavioral tests**
 
-### [ix](https://github.com/GuitarAlchemist/ix) — Machine Forge
+---
 
-Rust workspace (32+ crates) of composable ML and math algorithms exposed as Claude Code skills via MCP.
+## Zero to Hero — Learning Paths
 
-- Optimization (SGD, Adam, PSO, simulated annealing), search (A\*, MCTS, minimax), neural networks (trainable transformers with GPU attention)
-- Chaos theory, topology, game theory, signal processing, adversarial ML, category theory
-- GPU compute via WGPU, DAG pipeline orchestration, embedded cache
-- **36 MCP tools** available to AI agents
+### Path 1: Music Theory (for guitarists)
 
-### [tars](https://github.com/GuitarAlchemist/tars) — Thinking, Acting, Reasoning System
+| Step | What You Learn | Where |
+|------|---------------|-------|
+| 1 | Play your first chord (Em) | [GAA-001](https://github.com/GuitarAlchemist/Demerzel/blob/master/state/streeling/courses/guitar-alchemist-academy/en/gaa-001-your-first-chord.md) |
+| 2 | Chord construction from intervals | [ga](https://github.com/GuitarAlchemist/ga) `ChordExplanationSkill` |
+| 3 | Scales and modes | ga `ScaleInfoSkill`, `ModeExplorationSkill` |
+| 4 | Voice leading and progressions | ga `HarmonicAnalysisSkill` |
+| 5 | Ask the AI chatbot anything | [Discussions Q&A](https://github.com/orgs/GuitarAlchemist/discussions) |
 
-Self-improving AI agent framework in F# combining neuro-symbolic reasoning, multi-agent orchestration, and probabilistic grammars.
+**Concepts:** intervals, chord qualities, scale formulas, modes, voice leading, functional harmony.
+**Grammar:** [`music-theory.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/music-theory.ebnf)
 
-- Closed-loop evolution pipeline: grammar weighting, pattern promotion, metacognition
-- Multi-agent orchestration with belief graphs and memory
-- 800+ tests passing
+### Path 2: ML Engineering (for developers)
 
-### [ga](https://github.com/GuitarAlchemist/ga) — Guitar Alchemist
+| Step | What You Learn | Where |
+|------|---------------|-------|
+| 1 | ML pipeline anatomy | [`ml-pipelines.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/ml-pipelines.ebnf) |
+| 2 | Build pipelines with ix MCP | [ix](https://github.com/GuitarAlchemist/ix) `ix-ml-builder` |
+| 3 | Composable Rust ML crates | ix: optimization, search, neural nets, chaos, topology |
+| 4 | Grammar-driven ML | tars `WeightedGrammar` + `GrammarDistillation` |
+| 5 | Governed deployment | Demerzel governance gates |
 
-AI-powered music theory and guitar learning platform built with .NET 10 and React.
+**Math:** linear algebra (PCA, neural nets), calculus (backprop), probability (Bayes), information theory (entropy, KL divergence).
 
-- Chord analysis, scale exploration, voice leading, harmonic analysis
-- Connected to ix ML tools for chord clustering, spectral analysis, and progression classification
-- MCP server exposing 50+ music theory tools
+### Path 3: Agent Governance (for AI researchers)
 
-### [Demerzel](https://github.com/GuitarAlchemist/Demerzel) — Agent Governance
+| Step | What You Learn | Where |
+|------|---------------|-------|
+| 1 | Asimov's Laws (Articles 0-5) | [`asimov.constitution.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/constitutions/asimov.constitution.md) |
+| 2 | Operational ethics (Articles 1-11) | [`default.constitution.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/constitutions/default.constitution.md) |
+| 3 | Tetravalent logic (T/F/U/C) | [`logic/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/logic) |
+| 4 | 21 governance policies | [`policies/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/policies) |
+| 5 | Conscience + meta-compounding | `state/conscience/`, `/demerzel compound` |
 
-Constitutional governance framework for AI agents — Asimov's Laws of Robotics, personas, alignment policies, multi-valued logic, cross-repo communication, and self-improving governance.
+### Path 4: Grammar Engineering (for language nerds)
 
-- **Asimov constitution** (Articles 0-5: Zeroth Law, First-Third Laws, Separation of Understanding/Goals, Consequence Invariance)
-- **Default constitution** (Articles 1-11: Truthfulness, Transparency, Reversibility, Proportionality, and more)
-- **7 personas** — Demerzel (governance coordinator), Seldon (knowledge transfer), skeptical-auditor, kaizen-optimizer, reflective-architect, system-integrator, default
-- **9 policies** — alignment, rollback, self-modification, Kaizen (PDCA + waste + 5 Whys), reconnaissance, scientific objectivity, Streeling (knowledge transfer), governance audit, autonomous loops (Ralph Loop governance + agentic patterns catalog)
-- **Galactic Protocol** — 6 contract schemas for cross-repo governance communication with crisp/fuzzy channel separation
-- **Governance meta-compounding** — self-improving governance with promotion protocol, confidence calibration, semantic routing, evolution tracking
-- **11 Claude Code skills** — `/demerzel` command with subcommands: audit, recon, directive, promote, evolve, teach, loop, patterns, confidence, harvest
+| Step | What You Learn | Where |
+|------|---------------|-------|
+| 1 | EBNF basics | [`scientific-method.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/scientific-method.ebnf) |
+| 2 | Weighted productions | `*.weights.json` files |
+| 3 | Distillation (traces to rules) | tars `GrammarDistillation` |
+| 4 | WoT DSL compilation | tars `WotParser` + `WotCompiler` |
+| 5 | Meta-grammar | [`meta-grammar.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/meta-grammar.ebnf) |
 
-> Named after [Eto Demerzel](https://asimov.fandom.com/wiki/R._Daneel_Olivaw) — the robot who guided humanity for 20,000 years through the application of the Zeroth Law.
+**Pipeline:** `Demerzel EBNF -> tars WeightedGrammar -> WoT DSL -> MCP execution -> GrammarDistillation -> Evolution`
 
-## Knowledge Base (NotebookLM)
+---
 
-Research notebooks powering the ecosystem's institutional memory:
+## Most Impactful Features
 
-| Notebook | Topics | Link |
-|----------|--------|------|
-| **Compound the Compounding** | Meta-compounding, DSL evolution, grammar governance, promotion staircase, CompoundCore architecture | [Open](https://notebooklm.google.com/notebook/b9f51708-11cf-4618-ae4d-6981c9e02891) |
-| **Probabilistic Grammars & Constrained LLM Reasoning** | Constrained decoding, PCFGs, neuro-symbolic AI, formal verification, TARS grammars | [Open](https://notebooklm.google.com/notebook/6b810c22-dcc3-45dd-a0f3-2e7921de5863) |
-| **Semantic Event Routing Architecture** | Multi-agent orchestration, bounded fuzziness, confidence protocols, embedding-based routing, OPTIC-K | [Open](https://notebooklm.google.com/notebook/c9470f2a-a97a-4d94-a38d-a1fb22b99bf8) |
+### 1. Probabilistic Grammar Engine
 
-These notebooks are indexed by Demerzel's Streeling knowledge framework and harvested daily by Seldon for curriculum updates.
+Every production has a learned weight. Bayesian updates after each use: `P(rule|outcome) = P(outcome|rule) x P(rule) / P(outcome)`. [16 grammars](https://github.com/GuitarAlchemist/Demerzel/tree/master/grammars) evolve through research cycles and tars distillation.
 
-## MCP Federation
+### 2. Tetravalent Logic
 
-The repositories connect through the [Model Context Protocol](https://modelcontextprotocol.io/), forming a federated agent ecosystem governed by Demerzel:
+Beliefs are T/F/U/C with fuzzy membership `{T:0.7, F:0.0, U:0.2, C:0.1}`. Unknown triggers investigation. Contradictory triggers escalation. `C > 0.3` = escalate. `argmax > 0.8` = sharpen.
 
-```
-┌─────────────────────────────────────────────────┐
-│                  Claude Code                     │
-│              (orchestration layer)               │
-└──────┬──────────────┬──────────────┬─────────────┘
-       │              │              │
-  ┌────▼────┐   ┌─────▼─────┐  ┌────▼────┐
-  │   ix    │   │   tars    │  │   ga    │
-  │  Rust   │   │    F#     │  │  C#/.NET│
-  │ 36 tools│   │ reasoning │  │ 50+tools│
-  └────┬────┘   └─────┬─────┘  └────┬────┘
-       │              │              │
-       └──────────────▼──────────────┘
-            Demerzel Governance
-     ┌────────────────────────────────┐
-     │  Asimov Laws · Galactic Protocol  │
-     │  Kaizen · Streeling · Ralph Loops │
-     │  7 Personas · 9 Policies          │
-     │  Governance Meta-Compounding      │
-     └────────────────────────────────┘
-```
+### 3. Constitutional Hierarchy
 
-## Built With
+`Asimov Laws (immutable) -> Constitution (11 articles) -> 21 Policies -> 14 Personas`. Higher layers override lower. Every action traces to constitutional basis.
 
-**Rust** · **F#** · **.NET 10** · **React** · **WGPU** · **Claude Code** · **MCP** · **NotebookLM**
+### 4. MCP Federation (200+ Tools)
+
+| Repo | Lang | Tools | Domain |
+|------|------|-------|--------|
+| [ix](https://github.com/GuitarAlchemist/ix) | Rust | 40+ | ML, math, optimization, GPU |
+| [tars](https://github.com/GuitarAlchemist/tars) | F# | 151 | Reasoning, grammars, agents |
+| [ga](https://github.com/GuitarAlchemist/ga) | C#/.NET | 50+ | Music theory, chords, scales |
+
+### 5. Streeling University (13 Departments)
+
+| Dept | Grammar | Domain |
+|------|---------|--------|
+| Music | music-theory.ebnf | Harmony, composition |
+| Guitar Studies | guitar-technique.ebnf | Technique, fretboard |
+| Musicology | musicology-analysis.ebnf | History, culture |
+| Mathematics | mathematical-proof.ebnf | Proofs, algebra |
+| Physics | acoustics-physics.ebnf | Acoustics, vibration |
+| Computer Science | algorithms.ebnf | Algorithms, complexity |
+| Product Management | product-management.ebnf | Communication + BS detection |
+| Futurology | futurology.ebnf | Scenarios, horizons |
+| Philosophy | philosophy.ebnf | Ethics, dialectic |
+| Cognitive Science | cognitive-science.ebnf | Biases, agent cognition |
+| GA Academy | (music grammars) | Beginner to advanced guitar |
+| World Music | (technique grammars) | 12 languages, traditions |
+| Psychohistory | psychohistory.ebnf | Prediction, crisis |
+
+Courses in 6 languages: EN, ES, PT, FR, IT, DE
+
+### 6. BS Detection
+
+Grammar that generates AND detects empty rhetoric. 4-test detector: specificity, falsifiability, density, commitment. Maps to tetravalent logic.
+
+---
+
+## Community
+
+- [Discussions](https://github.com/orgs/GuitarAlchemist/discussions) — governance reports, ideation, Q&A
+- [Project Board](https://github.com/orgs/GuitarAlchemist/projects/2) — ecosystem roadmap
+- [Discord](https://github.com/GuitarAlchemist/demerzel-bot) — Demerzel + Seldon bots
+
+## Acknowledgements
+
+- [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov) — Foundation, Laws of Robotics, R. Daneel Olivaw
+- [Jean-Pierre Petit](https://en.wikipedia.org/wiki/Jean-Pierre_Petit) — Logotron, Economicon, Bourbakof
+- [Frederik Pohl](https://en.wikipedia.org/wiki/Frederik_Pohl) — Heechee saga
+- [Anthropic](https://www.anthropic.com/) / [Claude Code](https://claude.com/claude-code) / [Superpowers](https://github.com/anthropics/claude-code-superpowers)
+
+**Built With:** Rust | F# | .NET 10 | React | Node.js | WGPU | Claude Code | MCP | NotebookLM | discord.js
