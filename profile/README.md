@@ -4,7 +4,7 @@
 
 We build composable systems where AI agents operate under principled governance — combining music theory, ML algorithms, neuro-symbolic reasoning, and constitutional alignment into a federated ecosystem.
 
-**7 repos** | **200+ MCP tools** | **14 personas** | **25 policies** | **26 grammars** | **20 departments** | **6 languages** | **52 behavioral tests**
+**7 repos** | **200+ MCP tools** | **14 personas** | **28 policies** | **26 grammars** | **21 departments** | **6 languages** | **56 behavioral tests** | **6 [IxQL pipelines](https://github.com/GuitarAlchemist/Demerzel/tree/master/pipelines)**
 
 ---
 
@@ -90,7 +90,7 @@ Beliefs are T/F/U/C with fuzzy membership `{T:0.7, F:0.0, U:0.2, C:0.1}`. Unknow
 | [tars](https://github.com/GuitarAlchemist/tars) | F# | 151 | Reasoning, grammars, agents |
 | [ga](https://github.com/GuitarAlchemist/ga) | C#/.NET | 50+ | Music theory, chords, scales |
 
-### 5. Streeling University (20 Departments)
+### 5. Streeling University (21 Departments)
 
 | Dept | Grammar | Domain |
 |------|---------|--------|
@@ -283,24 +283,79 @@ Streeling University (Chancellor: Seldon)
 │   ├── Guitar Alchemist Academy — beginner to Satriani
 │   └── World Music & Languages — 12 languages, 6 guitar traditions
 │
-├── Science Departments
+├── Science & Engineering (8)
 │   ├── Mathematics — proofs, algebra, topology
-│   ├── Physics — acoustics, vibration, instrument modeling
-│   └── Computer Science — algorithms, ML pipelines
+│   ├── Physics — acoustics, vibration, modeling
+│   ├── Computer Science — algorithms, ML, IxQL
+│   ├── Cybernetics — VSM, feedback loops, control theory
+│   ├── Audio Engineering — recording, mixing, mastering
+│   ├── Data Visualization — D3.js, Poincaré, dashboards
+│   ├── Network Science — graph theory, resilience
+│   ├── Information Theory — entropy, compression, SNR
+│   └── Systems Engineering — integration, V-model, MBSE
 │
-├── Human Sciences
+├── Humanities (5)
 │   ├── Philosophy — ethics, dialectic, epistemology
 │   ├── Cognitive Science — biases, agent cognition
 │   ├── Futurology — scenarios, signals, horizons
-│   └── Psychohistory — statistical prediction, crisis anticipation
+│   ├── Psychohistory — prediction, crisis anticipation
+│   └── Semiotics — signs, meaning, agent communication
 │
-└── Applied
+└── Governance & Applied (2)
     ├── Product Management — communication, BS detection
-│   └── Audio Engineering — recording, mixing, mastering, spatial audio
+    └── MetaQA — test theory, mutation testing, formal verification
 
-Courses: 15 modules in 6 languages (EN, ES, PT, FR, IT, DE)
+Courses: 14 EN + 65 translations = 79 modules in 6 languages (EN, ES, PT, FR, IT, DE)
 Pipeline: /seldon research-cycle → /seldon course-pipeline → publish
 ```
+
+---
+
+## Development Velocity
+
+### Latest Session — 2026-03-24
+
+**First autonomous agent team deployed** — 5 agents (Demerzel lead + [Seldon](https://github.com/GuitarAlchemist/Demerzel/blob/master/personas/seldon.persona.yaml) + [Auditor](https://github.com/GuitarAlchemist/Demerzel/blob/master/personas/skeptical-auditor.persona.yaml) + [Architect](https://github.com/GuitarAlchemist/Demerzel/blob/master/personas/reflective-architect.persona.yaml) + [Integrator](https://github.com/GuitarAlchemist/Demerzel/blob/master/personas/system-integrator.persona.yaml)) completed 12/12 tasks autonomously.
+
+| Artifact | Before | After | Delta |
+|----------|--------|-------|-------|
+| Grammars | 20 | 26 | **+6** |
+| Departments | 15 | 21 | **+6** |
+| Behavioral Tests | 45 | 56 | **+11** |
+| Policies | 24 | 28 | **+4** |
+| Schemas | 23 | 25 | **+2** |
+| Skills | 37 | 40 | **+3** |
+| IxQL Pipelines | 0 | 6 | **+6** *(new!)* |
+| Design Specs | — | 5 | **+5** |
+| Research Docs | — | 2 | **+2** |
+| **Total** | | | **+45 artifacts** |
+
+**Key deliverables:**
+- [Ecosystem Roadmap Explorer](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/superpowers/specs/2026-03-24-ecosystem-roadmap-explorer-design.md) — Three.js WebGPU, 3 view modes (icicle, Poincaré disk, Poincaré ball)
+- [IxQL](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md) named & expanded to 11 sections + 6 governance pipelines
+- [AI-Age Manifesto](https://github.com/GuitarAlchemist/Demerzel#manifesto-for-ai-age-development) — 10 principles for governed AI development
+- 6 new departments: [Cybernetics](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-cybernetics.ebnf), [MetaQA](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/gov-metaqa.ebnf), [Semiotics](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-semiotics.ebnf), [Network Science](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-network-science.ebnf), [Information Theory](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-information-theory.ebnf), [Systems Engineering](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-systems-engineering.ebnf)
+- [MetaSync skill](https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/demerzel-metasync/SKILL.md) — auto-detected and fixed 9 documentation drifts
+- [Seldon Plan](https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/seldon-plan/SKILL.md) — autonomous research scheduler with kill switch
+- [Compounding Dashboard](https://guitaralchemist.github.io/demos/compounding/) — D_c visualization
+
+### Compounding Metrics (D_c)
+
+> D_c = log(value_n+1) / log(value_n) — [theory](https://github.com/GuitarAlchemist/Demerzel/blob/master/logic/fractal-compounding.md) | [policy](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/compounding-metrics-policy.yaml) | [dashboard](https://guitaralchemist.github.io/demos/compounding/)
+
+**Golden zone: 1.2–1.6** — healthy superlinear compounding.
+
+Value = citations × 0.35 + PDCA cycles × 0.25 + U→T transitions × 0.25 + knowledge transfers × 0.15
+
+| Metric | Status |
+|--------|--------|
+| LOLLI Inflation | ✓ Clear — artifact growth matches citation growth |
+| Power Law | ✓ Healthy — top 20% = ~65% citations |
+| Learning Momentum (p_L) | ✓ Growing — net positive belief transitions |
+
+### [Manifesto for AI-Age Development](https://github.com/GuitarAlchemist/Demerzel#manifesto-for-ai-age-development)
+
+10 principles: Governance over heroics · Compounding over sprinting · Bounded autonomy · Tetravalent truth · Observable conscience · Reactive governance · Constitutional hierarchy · Completeness instinct · Factory of factories · Human-AI collaboration
 
 ---
 
