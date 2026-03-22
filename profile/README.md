@@ -4,7 +4,7 @@
 
 We build composable systems where AI agents operate under principled governance — combining music theory, ML algorithms, neuro-symbolic reasoning, and constitutional alignment into a federated ecosystem.
 
-**7 repos** | **200+ MCP tools** | **14 personas** | **24 policies** | **18 grammars** | **13 departments** | **6 languages** | **41 behavioral tests**
+**7 repos** | **200+ MCP tools** | **14 personas** | **25 policies** | **26 grammars** | **20 departments** | **6 languages** | **52 behavioral tests**
 
 ---
 
@@ -51,7 +51,7 @@ We build composable systems where AI agents operate under principled governance 
 | 1 | Asimov's Laws (Articles 0-5) | [`asimov.constitution.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/constitutions/asimov.constitution.md) |
 | 2 | Operational ethics (Articles 1-11) | [`default.constitution.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/constitutions/default.constitution.md) |
 | 3 | Tetravalent logic (T/F/U/C) | [`logic/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/logic) |
-| 4 | 21 governance policies | [`policies/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/policies) |
+| 4 | 25 governance policies | [`policies/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/policies) |
 | 5 | Conscience + meta-compounding | `state/conscience/`, `/demerzel compound` |
 
 ### Path 4: Grammar Engineering (for language nerds)
@@ -72,7 +72,7 @@ We build composable systems where AI agents operate under principled governance 
 
 ### 1. Probabilistic Grammar Engine
 
-Every production has a learned weight. Bayesian updates after each use: `P(rule|outcome) = P(outcome|rule) x P(rule) / P(outcome)`. [18 grammars](https://github.com/GuitarAlchemist/Demerzel/tree/master/grammars) evolve through research cycles and tars distillation.
+Every production has a learned weight. Bayesian updates after each use: `P(rule|outcome) = P(outcome|rule) x P(rule) / P(outcome)`. [26 grammars](https://github.com/GuitarAlchemist/Demerzel/tree/master/grammars) evolve through research cycles and tars distillation.
 
 ### 2. Tetravalent Logic
 
@@ -80,7 +80,7 @@ Beliefs are T/F/U/C with fuzzy membership `{T:0.7, F:0.0, U:0.2, C:0.1}`. Unknow
 
 ### 3. Constitutional Hierarchy
 
-`Asimov Laws (immutable) -> Constitution (11 articles) -> 22 Policies -> 14 Personas`. Higher layers override lower. Every action traces to constitutional basis.
+`Asimov Laws (immutable) -> Constitution (11 articles) -> 25 Policies -> 14 Personas`. Higher layers override lower. Every action traces to constitutional basis.
 
 ### 4. MCP Federation (200+ Tools)
 
@@ -90,7 +90,7 @@ Beliefs are T/F/U/C with fuzzy membership `{T:0.7, F:0.0, U:0.2, C:0.1}`. Unknow
 | [tars](https://github.com/GuitarAlchemist/tars) | F# | 151 | Reasoning, grammars, agents |
 | [ga](https://github.com/GuitarAlchemist/ga) | C#/.NET | 50+ | Music theory, chords, scales |
 
-### 5. Streeling University (13 Departments)
+### 5. Streeling University (20 Departments)
 
 | Dept | Grammar | Domain |
 |------|---------|--------|
@@ -107,6 +107,13 @@ Beliefs are T/F/U/C with fuzzy membership `{T:0.7, F:0.0, U:0.2, C:0.1}`. Unknow
 | GA Academy | music-satriani-advanced.ebnf | Beginner to Satriani |
 | World Music | music-guitar-technique.ebnf | 12 languages, traditions |
 | Psychohistory | human-psychohistory.ebnf | Prediction, crisis |
+| Audio Engineering | sci-audio-engineering.ebnf | EQ, compression, mixing |
+| Data Visualization | sci-data-visualization.ebnf | D3.js, Poincaré ball, charts |
+| Cybernetics | sci-cybernetics.ebnf | Feedback loops, control theory |
+| Information Theory | sci-information-theory.ebnf | Entropy, KL divergence |
+| Network Science | sci-network-science.ebnf | Graph topology, propagation |
+| Semiotics | human-semiotics.ebnf | Signs, symbols, meaning |
+| Systems Engineering | sci-systems-engineering.ebnf | Architecture, MBSE, resilience |
 
 Courses in 6 languages: EN, ES, PT, FR, IT, DE
 
@@ -135,7 +142,7 @@ Grammar that generates AND detects empty rhetoric across 10 domains. If the gram
 
 Score: 0-1 fail = T (real) | 2 = U (unclear) | 3-4 = C (contradictory)
 
-### 7. Grammar Library (18 grammars)
+### 7. Grammar Library (26 grammars)
 
 All grammars are [living artifacts](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/grammar-evolution-policy.yaml) — evolved by research cycles, Bayesian weight updates, and tars distillation.
 
@@ -150,20 +157,28 @@ grammars/
 │   ├── music-guitar-technique.ebnf    # CAGED, fingerpicking, practice routines
 │   ├── music-musicology-analysis.ebnf # Periods, styles, comparative study
 │   └── music-satriani-advanced.ebnf   # Advanced technique, phrasing, composition
-├── sci-                           # Science & engineering
+├── sci-                           # Science & engineering (9 grammars)
 │   ├── sci-mathematical-proof.ebnf    # Proof strategies, reasoning chains
 │   ├── sci-acoustics-physics.ebnf     # Vibration, harmonics, resonance
 │   ├── sci-algorithms.ebnf            # Paradigms, data structures, complexity
-│   └── sci-ml-pipelines.ebnf          # ML pipeline vocabulary, ix patterns
+│   ├── sci-ml-pipelines.ebnf          # IxQL — ML pipelines, MCP orchestration
+│   ├── sci-audio-engineering.ebnf     # EQ, compression, mixing, mastering
+│   ├── sci-data-visualization.ebnf    # D3.js patterns, chart grammar, Poincaré ball
+│   ├── sci-cybernetics.ebnf           # Feedback loops, control theory, homeostasis
+│   ├── sci-information-theory.ebnf    # Entropy, KL divergence, channel capacity
+│   ├── sci-network-science.ebnf       # Graph topology, centrality, propagation
+│   └── sci-systems-engineering.ebnf   # Architecture, MBSE, emergence, resilience
 ├── gov-                           # Governance & detection
 │   ├── gov-blind-spot-detection.ebnf  # Staleness, coverage gaps, meta blind spots
 │   ├── gov-bs-generators.ebnf         # 10-domain BS generator + detector v2
+│   ├── gov-metaqa.ebnf                # Question quality, epistemic validation
 │   └── gov-product-management.ebnf    # PM communication + buzzword engine
-└── human-                         # Human sciences
+└── human-                         # Human sciences (5 grammars)
     ├── human-philosophy.ebnf          # Ethics, dialectic, thought experiments
     ├── human-cognitive-science.ebnf   # Biases, agent architectures, paradigms
     ├── human-futurology.ebnf          # Scenario planning, signal detection
-    └── human-psychohistory.ebnf       # Crisis prediction, power laws, Seldon Plan
+    ├── human-psychohistory.ebnf       # Crisis prediction, power laws, Seldon Plan
+    └── human-semiotics.ebnf           # Signs, symbols, meaning, semiosis
 ```
 
 ### 8. MCP Tool Federation (200+ tools)
@@ -206,7 +221,22 @@ Claude Code (orchestration)
 
 **Risk gates:** Low (read-only) = no gate | Medium (side effects) = `T(0.7)` | High (governance) = `T(0.7) && C(<0.1)` | Critical = pre-mortem
 
-### 9. Constitutional Hierarchy
+### 9. IxQL (Pipeline Language for ML and Governance)
+
+**What:** A declarative language for composing ML pipelines, orchestrating MCP tools, and expressing governance as executable code. Every pipeline result maps to tetravalent logic (T/F/U/C). Grammar: [`sci-ml-pipelines.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-ml-pipelines.ebnf). Runtime: [ix](https://github.com/GuitarAlchemist/ix).
+
+```ixql
+-- Research cycle: question → validation → course production
+department_state("music")
+  → question_generation("harmonic_analysis")
+  → cross_model_validation(claude.research, gpt4o.research)
+  → when T >= 0.8: course_production("MUS-004", languages: ["en", "es", "fr"])
+  → compound: harvest, promote if T >= 0.9, teach to seldon
+```
+
+**Flow patterns:** `fan_out` (parallel) | `when T >= N` (confidence gate) | `compound` (harvest + promote) | `watch` (reactive) | `cron` (scheduled). Full guide: [`docs/ixql-guide.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md).
+
+### 10. Constitutional Hierarchy
 
 ```
 Asimov Constitution (immutable)
@@ -225,13 +255,13 @@ Asimov Constitution (immutable)
         ├── Art 5: Non-Deception         └── Art 11: Ethical Stewardship
         ├── Art 6: Escalation
         │
-        └── 22 Policies (versioned, evolvable)
+        └── 25 Policies (versioned, evolvable)
             ├── Core: alignment, rollback, self-modification, kaizen, recon
-            ├── Knowledge: streeling, multilingual, grammar-evolution
-            ├── Governance: audit, autonomous-loop, staleness-detection
-            ├── Ethics: conscience, proto-conscience, belief-currency
+            ├── Knowledge: streeling, multilingual, grammar-evolution, continuous-learning
+            ├── Governance: audit, autonomous-loop, staleness-detection, readme-sync
+            ├── Ethics: conscience, proto-conscience, belief-currency, completeness-instinct
             ├── Operations: auto-remediation, context-management, multi-model
-            └── Research: scientific-objectivity, governance-experimentation
+            └── Research: scientific-objectivity, governance-experimentation, ai-probes
                 │
                 └── 14 Personas (behavioral profiles)
                     ├── demerzel (governance coordinator)
@@ -242,7 +272,7 @@ Asimov Constitution (immutable)
                     └── + 6 more specialized personas
 ```
 
-### 10. Streeling University
+### 11. Streeling University
 
 ```
 Streeling University (Chancellor: Seldon)
