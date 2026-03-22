@@ -4,7 +4,7 @@
 
 We build composable systems where AI agents operate under principled governance — combining music theory, ML algorithms, neuro-symbolic reasoning, and constitutional alignment into a federated ecosystem.
 
-**7 repos** | **200+ MCP tools** | **14 personas** | **22 policies** | **18 grammars** | **13 departments** | **6 languages** | **41 behavioral tests**
+**7 repos** | **200+ MCP tools** | **14 personas** | **24 policies** | **18 grammars** | **13 departments** | **6 languages** | **41 behavioral tests**
 
 ---
 
@@ -197,10 +197,11 @@ Claude Code (orchestration)
 │   ├── Exploration: ModeExplorationSkill, FretboardNavigationSkill
 │   └── Creation: CompositionSkill, ArrangementSkill
 │
-└── Demerzel (governance) — 32 skills
-    ├── /demerzel: audit, recon, directive, promote, evolve, drive, loop...
+└── Demerzel (governance) — 37 skills
+    ├── /demerzel: audit, recon, directive, promote, evolve, drive, loop, metabuild, metafix, report, bs-decode...
     ├── /seldon: research, teach, assess, deliver, notebook, research-cycle, course-pipeline
     └── /persona, /tetravalent, /constitution, /alignment-check, /behavioral-test
+    └── Meta: /demerzel metabuild (factory of factories), /demerzel metafix (systemic fixes)
 ```
 
 **Risk gates:** Low (read-only) = no gate | Medium (side effects) = `T(0.7)` | High (governance) = `T(0.7) && C(<0.1)` | Critical = pre-mortem
@@ -264,9 +265,10 @@ Streeling University (Chancellor: Seldon)
 │   └── Psychohistory — statistical prediction, crisis anticipation
 │
 └── Applied
-    └── Product Management — communication, BS detection
+    ├── Product Management — communication, BS detection
+│   └── Audio Engineering — recording, mixing, mastering, spatial audio
 
-Courses: 23 modules in 6 languages (EN, ES, PT, FR, IT, DE)
+Courses: 15 modules in 6 languages (EN, ES, PT, FR, IT, DE)
 Pipeline: /seldon research-cycle → /seldon course-pipeline → publish
 ```
 
