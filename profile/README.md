@@ -434,6 +434,67 @@ Value = citations × 0.35 + PDCA cycles × 0.25 + U→T transitions × 0.25 + kn
 
 ---
 
+## Who Benefits — Portable Assets for Any Project
+
+Everything in Demerzel is designed to be **copied into your repo and used immediately**. No vendor lock-in, no runtime dependency — just governance artifacts.
+
+### For Teams Deploying AI Agents
+
+| Asset | What You Get | Copy From |
+|-------|-------------|-----------|
+| [Constitutional hierarchy](https://github.com/GuitarAlchemist/Demerzel/tree/master/constitutions) | Immutable safety laws that override everything. Agents can't drift. | `constitutions/` → your repo |
+| [AGENTS.md](https://github.com/GuitarAlchemist/Demerzel/blob/master/AGENTS.md) | Agent team roles, task routing, governance rules for Claude Code teams | `AGENTS.md` → your repo |
+| [Confidence thresholds](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/alignment-policy.yaml) | ≥0.9 proceed, ≥0.7 note, ≥0.5 confirm, <0.3 stop — calibrated autonomy | `policies/alignment-policy.yaml` |
+| [Self-diagnostic](https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/demerzel-self-diagnostic/SKILL.md) | Detect context exhaustion, wrong-repo errors, loops before they cascade | `.claude/skills/demerzel-self-diagnostic/` |
+
+**Use case:** A fintech team deploying an AI trading assistant needs agents that stop when uncertain, escalate contradictions, and never exceed their mandate.
+
+### For Engineering Leaders
+
+| Asset | What You Get | Copy From |
+|-------|-------------|-----------|
+| [/demerzel articulate](https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/demerzel-articulate/SKILL.md) | Transform vague plans into specific, actionable communication. 4 Clarity Tests. | `.claude/skills/demerzel-articulate/` |
+| [Anti-LOLLI policy](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/anti-lolli-inflation-policy.yaml) | Stop measuring activity (story points, velocity). Start measuring value. | `policies/anti-lolli-inflation-policy.yaml` |
+| [D_c metrics](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/compounding-metrics-policy.yaml) | Is each sprint producing more value than the last? D_c > 1.0 = compounding. | `policies/compounding-metrics-policy.yaml` |
+| [Manifesto](https://github.com/GuitarAlchemist/Demerzel#manifesto-for-ai-age-development) | 10 principles replacing Agile assumptions for the AI age | `README.md` Manifesto section |
+
+**Use case:** A director at a SaaS company wants to know if the AI tools are actually helping or just producing more artifacts. ERGOL vs LOLLI gives the answer in one number.
+
+### For Regulated Industries (Healthcare, Finance, 911)
+
+| Asset | What You Get | Copy From |
+|-------|-------------|-----------|
+| [Tetravalent logic](https://github.com/GuitarAlchemist/Demerzel/tree/master/logic) | Unknown ≠ False. When a system doesn't know, it escalates — never defaults. | `logic/` |
+| [Behavioral tests](https://github.com/GuitarAlchemist/Demerzel/tree/master/tests/behavioral) | Given/When/Then tests with tetravalent outcomes for governance compliance | `tests/behavioral/` |
+| [Legal compliance layer](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/superpowers/specs/2026-03-24-legal-compliance-layer-design.md) | AI Act, GDPR, WCAG gates as pipeline stages | Spec — adapt to your jurisdiction |
+| [Audit trails](https://github.com/GuitarAlchemist/Demerzel/tree/master/state/evolution) | Every governance action logged with tetravalent outcome | `state/evolution/` pattern |
+
+**Use case:** A hospital deploying clinical decision support needs AI that says "I don't know" (Unknown) instead of guessing, with every decision auditable.
+
+### For Open-Source ML Projects
+
+| Asset | What You Get | Copy From |
+|-------|-------------|-----------|
+| [IxQL](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md) | Declarative pipeline language — data → model → evaluation → governance gates | `grammars/sci-ml-pipelines.ebnf` |
+| [Meta-tools](https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/demerzel-metabuild/SKILL.md) | MetaBuild (factory-of-factories), MetaFix (fix the system), MetaSync (drift detection) | `.claude/skills/demerzel-meta*/` |
+| [BS Detector](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/gov-bs-generators.ebnf) | 4-test scoring for AI claims: specificity, falsifiability, density, commitment | `grammars/gov-bs-generators.ebnf` |
+| [Completeness instinct](https://github.com/GuitarAlchemist/Demerzel/blob/master/policies/completeness-instinct-policy.yaml) | Proactive gap analysis — what's declared but underspecified? What's missing? | `policies/completeness-instinct-policy.yaml` |
+
+**Use case:** An ML team releasing a model needs governance gates that check for bias, explain decisions, and verify confidence calibration — before deployment, not after.
+
+### Quick Start: Copy Governance to Your Repo
+
+```bash
+# Copy the essentials (5 files, works in any repo)
+curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/constitutions/default.constitution.md > .claude/constitution.md
+curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/policies/alignment-policy.yaml > .claude/alignment-policy.yaml
+curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/.claude/skills/demerzel-articulate/SKILL.md > .claude/skills/demerzel-articulate/SKILL.md
+curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/.claude/skills/demerzel-self-diagnostic/SKILL.md > .claude/skills/demerzel-self-diagnostic/SKILL.md
+curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/AGENTS.md > AGENTS.md
+```
+
+---
+
 ## Community
 
 - [Discussions](https://github.com/orgs/GuitarAlchemist/discussions) — governance reports, ideation, Q&A
