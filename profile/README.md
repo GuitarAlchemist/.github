@@ -15,6 +15,81 @@ We build composable systems where AI agents operate under principled governance 
 *Center = core systems, middle = active work, edge = horizon. Hyperbolic space naturally represents hierarchical depth.*
 **[Interactive version](https://guitaralchemist.github.io/demos/roadmap/)** — zoom, pan, click through to GitHub.
 
+```mermaid
+graph LR
+    GA["🎸 GuitarAlchemist"] --> GOV["🏛 Governance"]
+    GA --> MUS["🎵 Music"]
+    GA --> SCI["🔬 Science"]
+    GA --> HUM["🧠 Humanities"]
+    GA --> IXQL["⚡ IxQL"]
+
+    GOV --> CONST["Constitution<br/>11 Articles"]
+    GOV --> POL["28 Policies"]
+    GOV --> PERS["14 Personas"]
+    GOV --> CONS["Conscience"]
+    GOV --> META["Meta Tools<br/>Build · Fix · Sync"]
+
+    MUS --> THEORY["Music Theory"]
+    MUS --> GUITAR["Guitar Studies"]
+    MUS --> MCOL["Musicology"]
+    MUS --> ACAD["GA Academy"]
+    MUS --> WORLD["World Music"]
+
+    SCI --> CS["Computer Science"]
+    SCI --> CYBER["Cybernetics<br/>VSM · Feedback"]
+    SCI --> NET["Network Science"]
+    SCI --> INFO["Information Theory"]
+    SCI --> SYSENG["Systems Engineering"]
+    SCI --> AUDIO["Audio Engineering"]
+    SCI --> DATAVIZ["Data Visualization"]
+    SCI --> MATH["Mathematics"]
+    SCI --> PHYS["Physics"]
+
+    HUM --> PHIL["Philosophy"]
+    HUM --> COG["Cognitive Science"]
+    HUM --> FUT["Futurology"]
+    HUM --> PSY["Psychohistory"]
+    HUM --> SEM["Semiotics"]
+
+    IXQL --> PIPE["6 Pipelines<br/>driver · audit · research"]
+    IXQL --> REACT["I/O & Reactive<br/>WebSocket · cron · watch"]
+    IXQL --> MCP["MCP Orchestration<br/>200+ tools"]
+    IXQL --> GATES["Governance Gates<br/>bias · confidence · explain"]
+
+    click GA "https://github.com/GuitarAlchemist" _blank
+    click CONST "https://github.com/GuitarAlchemist/Demerzel/tree/master/constitutions" _blank
+    click POL "https://github.com/GuitarAlchemist/Demerzel/tree/master/policies" _blank
+    click PERS "https://github.com/GuitarAlchemist/Demerzel/tree/master/personas" _blank
+    click CONS "https://github.com/GuitarAlchemist/Demerzel/tree/master/state/conscience" _blank
+    click META "https://github.com/GuitarAlchemist/Demerzel/blob/master/.claude/skills/demerzel-metabuild/SKILL.md" _blank
+    click THEORY "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/music-theory.ebnf" _blank
+    click GUITAR "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/music-guitar-technique.ebnf" _blank
+    click MCOL "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/music-musicology-analysis.ebnf" _blank
+    click ACAD "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/music-satriani-advanced.ebnf" _blank
+    click WORLD "https://github.com/GuitarAlchemist/Demerzel/tree/master/state/streeling/departments" _blank
+    click CS "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-algorithms.ebnf" _blank
+    click CYBER "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-cybernetics.ebnf" _blank
+    click NET "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-network-science.ebnf" _blank
+    click INFO "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-information-theory.ebnf" _blank
+    click SYSENG "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-systems-engineering.ebnf" _blank
+    click AUDIO "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-audio-engineering.ebnf" _blank
+    click DATAVIZ "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-data-visualization.ebnf" _blank
+    click MATH "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-mathematical-proof.ebnf" _blank
+    click PHYS "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-acoustics-physics.ebnf" _blank
+    click PHIL "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-philosophy.ebnf" _blank
+    click COG "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-cognitive-science.ebnf" _blank
+    click FUT "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-futurology.ebnf" _blank
+    click PSY "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-psychohistory.ebnf" _blank
+    click SEM "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/human-semiotics.ebnf" _blank
+    click PIPE "https://github.com/GuitarAlchemist/Demerzel/tree/master/pipelines" _blank
+    click REACT "https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/sci-ml-pipelines.ebnf" _blank
+    click MCP "https://github.com/GuitarAlchemist/tars" _blank
+    click GATES "https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md" _blank
+    click IXQL "https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md" _blank
+```
+
+**[Interactive version →](https://guitaralchemist.github.io/demos/roadmap/)** Poincaré Ball with plunge navigation
+
 ---
 
 ## Zero to Hero — Learning Paths
