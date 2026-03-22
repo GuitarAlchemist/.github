@@ -311,6 +311,29 @@ department_state("music")
 
 **Flow patterns:** `fan_out` (parallel) | `when T >= N` (confidence gate) | `compound` (harvest + promote) | `watch` (reactive) | `cron` (scheduled). Full guide: [`docs/ixql-guide.md`](https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md).
 
+**8 Live Governance Pipelines** ([`pipelines/`](https://github.com/GuitarAlchemist/Demerzel/tree/master/pipelines)):
+
+```mermaid
+graph LR
+    DRIVER["driver-cycle.ixql<br/>8-phase autonomous loop"] --> RECON["governance-audit.ixql<br/>3-level validation"]
+    DRIVER --> WEAK["weakness-probe.ixql<br/>5 probes, ranked"]
+    DRIVER --> SYNC["metasync.ixql<br/>drift detection"]
+    DRIVER --> RESEARCH["research-cycle.ixql<br/>dept → question → course"]
+    DRIVER --> CONSCIENCE["conscience-cycle.ixql<br/>signals → patterns → regrets"]
+    RESEARCH --> ML["ml-feedback-loop.ixql<br/>ix results → governance"]
+    WEAK --> ML
+    CONTENT["content-intelligence.ixql<br/>LinkedIn → analyze → compound"] --> RESEARCH
+
+    click DRIVER "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/driver-cycle.ixql" _blank
+    click RECON "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/governance-audit.ixql" _blank
+    click WEAK "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/weakness-probe.ixql" _blank
+    click SYNC "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/metasync.ixql" _blank
+    click RESEARCH "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/research-cycle.ixql" _blank
+    click CONSCIENCE "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/conscience-cycle.ixql" _blank
+    click ML "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/ml-feedback-loop.ixql" _blank
+    click CONTENT "https://github.com/GuitarAlchemist/Demerzel/blob/master/pipelines/content-intelligence.ixql" _blank
+```
+
 ### 10. Constitutional Hierarchy
 
 ```
