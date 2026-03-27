@@ -6,6 +6,11 @@ We build composable systems where AI agents operate under principled governance 
 
 **7 repos** | **200+ MCP tools** | **14 personas** | **28 policies** | **26 grammars** | **21 departments** | **6 languages** | **56 behavioral tests** | **6 [IxQL pipelines](https://github.com/GuitarAlchemist/Demerzel/tree/master/pipelines)**
 
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
+
 ---
 
 ## Ecosystem Roadmap
@@ -90,6 +95,11 @@ graph LR
 
 **[Interactive version →](https://guitaralchemist.github.io/demos/roadmap/)** Poincaré Ball with plunge navigation
 
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
+
 ---
 
 ## Zero to Hero — Learning Paths
@@ -140,6 +150,11 @@ graph LR
 | 5 | Meta-grammar | [`core-meta-grammar.ebnf`](https://github.com/GuitarAlchemist/Demerzel/blob/master/grammars/core-meta-grammar.ebnf) |
 
 **Pipeline:** `Demerzel EBNF -> tars WeightedGrammar -> WoT DSL -> MCP execution -> GrammarDistillation -> Evolution`
+
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
 
 ---
 
@@ -407,6 +422,11 @@ Courses: 14 EN + 65 translations = 79 modules in 6 languages (EN, ES, PT, FR, IT
 Pipeline: /seldon research-cycle → /seldon course-pipeline → publish
 ```
 
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
+
 ---
 
 ## Development Velocity
@@ -454,6 +474,11 @@ Value = citations × 0.35 + PDCA cycles × 0.25 + U→T transitions × 0.25 + kn
 ### [Manifesto for AI-Age Development](https://github.com/GuitarAlchemist/Demerzel#manifesto-for-ai-age-development)
 
 10 principles: Governance over heroics · Compounding over sprinting · Bounded autonomy · Tetravalent truth · Observable conscience · Reactive governance · Constitutional hierarchy · Completeness instinct · Factory of factories · Human-AI collaboration
+
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
 
 ---
 
@@ -515,6 +540,11 @@ curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/.clau
 curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/.claude/skills/demerzel-self-diagnostic/SKILL.md > .claude/skills/demerzel-self-diagnostic/SKILL.md
 curl -sL https://raw.githubusercontent.com/GuitarAlchemist/Demerzel/master/AGENTS.md > AGENTS.md
 ```
+
+## Live Demos
+
+- [**Prime Radiant**](https://demos.guitaralchemist.com/test/prime-radiant) — 3D governance visualization with Demerzel AI, solar system, Seldon analytics
+- [**All Component Demos**](https://demos.guitaralchemist.com/test) — Fretboard, solar system, nature simulations, music theory tools
 
 ---
 
