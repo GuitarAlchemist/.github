@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://guitaralchemist.github.io/ga/">
+    <img src="https://guitaralchemist.github.io/ga/banner.png" alt="Guitar Alchemist — WebGPU ocean with a spinning warship" />
+  </a>
+</p>
+
 # Guitar Alchemist
 
 **AI-native tools for music, machine learning, and agent governance.**
