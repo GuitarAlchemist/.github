@@ -26,6 +26,9 @@ We build composable systems where AI agents operate under principled governance 
 *Center = core systems, middle = active work, edge = horizon. Hyperbolic space naturally represents hierarchical depth.*
 **[Interactive version](https://guitaralchemist.github.io/demos/roadmap/)** — zoom, pan, click through to GitHub.
 
+<details>
+<summary><b>Show ecosystem diagram</b></summary>
+
 ```mermaid
 graph LR
     GA["🎸 GuitarAlchemist"] --> GOV["🏛 Governance"]
@@ -98,6 +101,8 @@ graph LR
     click GATES "https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md" _blank
     click IXQL "https://github.com/GuitarAlchemist/Demerzel/blob/master/docs/ixql-guide.md" _blank
 ```
+
+</details>
 
 **[Interactive version →](https://guitaralchemist.github.io/demos/roadmap/)** Poincaré Ball with plunge navigation
 
