@@ -28,7 +28,7 @@ Agent Blackbox is **not** a fit for autocomplete-only shops (Copilot inline), da
 
 Agent Blackbox is in **private beta** (`v0.1.0-beta.1`). It installs as a pinned GitHub Actions workflow plus a repo policy file. The `install-doctor` preflight surfaces every known install failure mode (PYTHONPATH, missing PAT, Python version) before the first invocation, with a concrete fix next to every `[FAIL]` line. Target install time is under 15 minutes against a real repo with an active coding agent.
 
-- **Request a pilot slot** → [GitHub Discussions](https://github.com/orgs/GuitarAlchemist/discussions). Pilot slots are scarce and prioritized for teams with fresh agent-caused incidents and real autonomous (T3/T4) workflows.
+- **Request a pilot slot** → email [spareilleux@gmail.com](mailto:spareilleux@gmail.com?subject=Agent%20Blackbox%20pilot%20request) with your team size, the autonomous agent you're running, and a one-line incident context. Pilot slots are scarce and prioritized for teams with fresh agent-caused incidents and real autonomous (T3/T4) workflows.
 - **Public site** → [guitaralchemist.github.io/ga](https://guitaralchemist.github.io/ga/)
 
 ## How it was built — dogfood surface
