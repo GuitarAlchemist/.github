@@ -4,6 +4,9 @@ This document defines the standardized label groups and their values used across
 
 ## Label Groups
 
+### Level
+`level:pi` / `level:epic` / `level:story` / `level:task` / `level:subtask`
+
 ### Priority
 `priority:P0` / `priority:P1` / `priority:P2` / `priority:P3`
 
