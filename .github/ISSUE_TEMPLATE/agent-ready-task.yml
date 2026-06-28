@@ -1,0 +1,220 @@
+name: Agent-ready task
+about: Create a bounded issue that can be routed to a human or AI worker
+labels: ready-for-agent
+title: "[Task] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for bounded tasks that may be delegated to a human or AI worker.
+
+        A task is not agent-ready because it has a worker label. It is agent-ready when scope, non-goals, validation, evidence, and stop conditions are explicit.
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options:
+        - task
+        - subtask
+        - story
+        - epic
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: parent
+    attributes:
+      label: Parent issue
+      description: Use owner/repo#123 when this issue belongs to a parent.
+      placeholder: GuitarAlchemist/.github#5
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - aiw
+        - governance
+        - product
+        - runtime
+        - music
+        - rendering
+        - research
+        - infra
+        - docs
+        - evals
+        - bot
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0
+        - P1
+        - P2
+        - P3
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Complexity
+      options:
+        - XS
+        - S
+        - M
+        - L
+        - XL
+      default: 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk
+      options:
+        - low
+        - medium
+        - high
+        - critical
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: worker
+    attributes:
+      label: Preferred worker
+      options:
+        - human
+        - demerzel
+        - jules
+        - claude
+        - codex
+        - ollama
+        - notebooklm
+        - gemini
+        - augment
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Delegation mode
+      options:
+        - observe
+        - draft
+        - patch
+        - pr
+        - harvest
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: trigger
+    attributes:
+      label: Trigger
+      options:
+        - manual
+        - manual-label
+        - workflow-dispatch
+        - local-runner
+        - project-field
+        - comment-command
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Single bounded outcome
+      description: What should be true when this task is complete?
+      placeholder: The issue is complete when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: allowed_paths
+    attributes:
+      label: Allowed paths
+      description: List files or directories the worker may touch.
+      placeholder: |
+        - docs/
+        - scripts/
+    validations:
+      required: false
+
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-goals
+      description: Explicitly state what the worker must not do.
+      placeholder: |
+        - No broad refactor.
+        - No secret changes.
+        - No governance bypass.
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: Commands, checks, or docs-only validation expected.
+      placeholder: |
+        - dotnet test
+        - npm test
+        - docs-only: verify links and examples
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence required
+      description: What evidence must the worker provide?
+      placeholder: |
+        - diff summary
+        - validation log
+        - risk notes
+        - linked issue/PR
+    validations:
+      required: true
+
+  - type: textarea
+    id: stop_conditions
+    attributes:
+      label: Stop conditions
+      description: When should the worker stop and report back?
+      placeholder: |
+        - Missing context
+        - Scope expansion
+        - Failing tests without progress
+        - Budget exceeded
+        - Risk escalation
+        - HALT active
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Optional context, links, or constraints.
+    validations:
+      required: false
