@@ -1,0 +1,41 @@
+name: Task
+description: Discrete unit of work.
+title: "[Task] "
+labels: ["level:task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What is the goal of this task?
+    validations:
+      required: true
+  - type: textarea
+    id: issue_meta
+    attributes:
+      label: Issue Meta
+      render: yaml
+      description: Standardized metadata for cross-repo triage.
+      value: |
+        issue_meta:
+          level: task
+          parent: owner/repo#number
+          area: runtime # runtime|research|governance|product|docs|infra
+          priority: P3 # P0|P1|P2|P3
+          complexity: S # XS|S|M|L|XL
+          risk: low # low|medium|high
+          afk:
+            readiness: candidate # ready|candidate|blocked
+            max_autonomy: pr # none|draft|pr|comment_only
+            reason: "Standard implementation task"
+          budget:
+            tier: free-local # free-local|paid-allowed|cloud-required
+            max_cost_usd: 0
+            max_runner_minutes: 15
+          routing:
+            lane: loop # shape|loop|fix|docs|research|infra
+            preferred_workers: []
+          evidence_required: []
+          status: ready # ready|blocked|needs_review|done
+    validations:
+      required: true
