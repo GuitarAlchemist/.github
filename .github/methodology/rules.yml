@@ -1,0 +1,45 @@
+# Methodology Guard Rules
+#
+# This file is intentionally a tiny YAML subset so the checker can parse it
+# without external Python dependencies.
+
+issue_required_sections:
+  - summary
+  - hierarchy
+  - business value
+  - review mode
+  - routing
+  - non-goals
+
+issue_required_hierarchy_fields:
+  - parent
+  - children
+  - related
+
+issue_required_business_value_fields:
+  - outcome
+  - value hypothesis
+  - who benefits
+  - how we know it worked
+  - risk if ignored
+
+pr_required_sections:
+  - summary
+  - linked issue
+  - scope
+  - business value
+  - review mode
+  - evidence
+  - acceptance criteria
+
+research_markers:
+  - "[research]"
+  - type:research
+  - research note
+
+reference_artifacts:
+  - PRODUCT_PROJECT_OPERATING_MODEL.md
+  - OPERATING_GATES.md
+  - ISSUE_HIERARCHY.md
+  - BUSINESS_VALUE_TREE.md
+  - WORKFLOW_STATE_MACHINE.md
