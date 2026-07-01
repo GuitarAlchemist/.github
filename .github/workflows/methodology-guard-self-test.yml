@@ -1,0 +1,59 @@
+name: Methodology Guard Self-Test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/methodology-guard.yml'
+      - '.github/scripts/check_methodology.py'
+      - 'tests/methodology/**'
+
+permissions:
+  contents: read
+
+jobs:
+  self-test:
+    name: Self-test methodology fixtures
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Pass fixture should pass
+        env:
+          METHODOLOGY_KIND: issue
+          METHODOLOGY_TITLE: Structured Issue
+          METHODOLOGY_BODY: ${{ hashFiles('tests/methodology/pass-structured-issue.md') }}
+        run: |
+          BODY="$(cat tests/methodology/pass-structured-issue.md)"
+          python3 .github/scripts/check_methodology.py \
+            --kind issue \
+            --title "Structured Issue" \
+            --body "$BODY" \
+            --strict
+
+      - name: Research note should pass as advisory
+        run: |
+          BODY="$(cat tests/methodology/research-note.md)"
+          python3 .github/scripts/check_methodology.py \
+            --kind issue \
+            --title "[Research] Example" \
+            --body "$BODY" \
+            --strict
+
+      - name: Missing business value fixture should fail in strict mode
+        run: |
+          BODY="$(cat tests/methodology/fail-missing-business-value.md)"
+          set +e
+          python3 .github/scripts/check_methodology.py \
+            --kind issue \
+            --title "Incomplete Issue" \
+            --body "$BODY" \
+            --strict
+          EXIT_CODE=$?
+          set -e
+          if [ "$EXIT_CODE" -eq 0 ]; then
+            echo "Expected strict checker to fail for missing business value."
+            exit 1
+          fi
+          echo "Strict checker failed as expected."
