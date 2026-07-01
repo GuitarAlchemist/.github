@@ -1,0 +1,37 @@
+name: Methodology Guard Pilot
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+concurrency:
+  group: methodology-guard-pilot-${{ github.event_name }}-${{ github.event.issue.number || github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  issue-methodology:
+    name: Issue methodology pilot
+    if: github.event_name == 'issues'
+    uses: ./.github/workflows/methodology-guard.yml
+    with:
+      kind: issue
+      title: ${{ github.event.issue.title }}
+      body: ${{ github.event.issue.body || '' }}
+      strict: false
+
+  pr-methodology:
+    name: PR methodology pilot
+    if: github.event_name == 'pull_request'
+    uses: ./.github/workflows/methodology-guard.yml
+    with:
+      kind: pr
+      title: ${{ github.event.pull_request.title }}
+      body: ${{ github.event.pull_request.body || '' }}
+      strict: false
