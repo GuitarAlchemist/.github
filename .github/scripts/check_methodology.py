@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Lightweight methodology checker for GitHub issue and PR bodies.
 
-This checker is intentionally conservative. It reports missing sections but does not
+The checker is intentionally conservative. It reports missing sections but does not
 try to infer quality from natural language. It is designed for gradual adoption.
+
+Rules can be loaded from a tiny YAML subset without external dependencies.
 """
 
 from __future__ import annotations
@@ -11,6 +13,7 @@ import argparse
 import json
 import re
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Iterable
 
 
@@ -21,45 +24,89 @@ class CheckResult:
     message: str
 
 
-REQUIRED_IMPORTANT_SECTIONS = [
-    "summary",
-    "hierarchy",
-    "business value",
-    "review mode",
-    "routing",
-    "non-goals",
-]
-
-REQUIRED_BUSINESS_VALUE_FIELDS = [
-    "outcome",
-    "value hypothesis",
-    "who benefits",
-    "how we know it worked",
-    "risk if ignored",
-]
-
-REQUIRED_HIERARCHY_FIELDS = [
-    "parent",
-    "children",
-    "related",
-]
-
-REQUIRED_PR_SECTIONS = [
-    "summary",
-    "linked issue",
-    "scope",
-    "business value",
-    "review mode",
-    "evidence",
-    "acceptance criteria",
-]
-
-
-ROUGH_RESEARCH_MARKERS = {
-    "[research]",
-    "type:research",
-    "research note",
+DEFAULT_RULES = {
+    "issue_required_sections": [
+        "summary",
+        "hierarchy",
+        "business value",
+        "review mode",
+        "routing",
+        "non-goals",
+    ],
+    "issue_required_business_value_fields": [
+        "outcome",
+        "value hypothesis",
+        "who benefits",
+        "how we know it worked",
+        "risk if ignored",
+    ],
+    "issue_required_hierarchy_fields": [
+        "parent",
+        "children",
+        "related",
+    ],
+    "pr_required_sections": [
+        "summary",
+        "linked issue",
+        "scope",
+        "business value",
+        "review mode",
+        "evidence",
+        "acceptance criteria",
+    ],
+    "research_markers": [
+        "[research]",
+        "type:research",
+        "research note",
+    ],
+    "reference_artifacts": [
+        "PRODUCT_PROJECT_OPERATING_MODEL.md",
+        "OPERATING_GATES.md",
+        "ISSUE_HIERARCHY.md",
+        "BUSINESS_VALUE_TREE.md",
+        "WORKFLOW_STATE_MACHINE.md",
+    ],
 }
+
+
+def load_tiny_yaml_list_config(path: str | None) -> dict[str, list[str]]:
+    """Load a tiny YAML subset of `key: [newline] - item` lists.
+
+    This avoids requiring PyYAML in GitHub Actions and is sufficient for the
+    methodology rules config.
+    """
+
+    rules: dict[str, list[str]] = {key: list(value) for key, value in DEFAULT_RULES.items()}
+    if not path:
+        return rules
+
+    rules_path = Path(path)
+    if not rules_path.exists():
+        return rules
+
+    current_key: str | None = None
+    parsed: dict[str, list[str]] = {}
+
+    for raw_line in rules_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        if line.endswith(":") and not line.startswith("-"):
+            current_key = line[:-1].strip()
+            parsed[current_key] = []
+            continue
+
+        if line.startswith("-") and current_key:
+            value = line[1:].strip().strip('"').strip("'")
+            if value:
+                parsed[current_key].append(value)
+
+    for key, values in parsed.items():
+        if values:
+            rules[key] = values
+
+    return rules
 
 
 def normalize(text: str) -> str:
@@ -76,9 +123,9 @@ def has_field(body: str, field: str) -> bool:
     return re.search(pattern, body, flags=re.IGNORECASE | re.MULTILINE) is not None
 
 
-def is_rough_research(title: str, body: str) -> bool:
+def is_rough_research(title: str, body: str, research_markers: Iterable[str]) -> bool:
     text = normalize(f"{title}\n{body}")
-    return any(marker in text for marker in ROUGH_RESEARCH_MARKERS)
+    return any(marker.lower() in text for marker in research_markers)
 
 
 def check_sections(body: str, sections: Iterable[str]) -> list[CheckResult]:
@@ -109,8 +156,8 @@ def check_fields(body: str, fields: Iterable[str], group: str) -> list[CheckResu
     return results
 
 
-def run_checks(kind: str, title: str, body: str) -> tuple[str, list[CheckResult]]:
-    if is_rough_research(title, body):
+def run_checks(kind: str, title: str, body: str, rules: dict[str, list[str]]) -> tuple[str, list[CheckResult]]:
+    if is_rough_research(title, body, rules["research_markers"]):
         return "research-note", [
             CheckResult(
                 name="mode:research-note",
@@ -123,16 +170,16 @@ def run_checks(kind: str, title: str, body: str) -> tuple[str, list[CheckResult]
     results: list[CheckResult] = []
 
     if normalized_kind == "pr":
-        results.extend(check_sections(body, REQUIRED_PR_SECTIONS))
+        results.extend(check_sections(body, rules["pr_required_sections"]))
     else:
-        results.extend(check_sections(body, REQUIRED_IMPORTANT_SECTIONS))
-        results.extend(check_fields(body, REQUIRED_HIERARCHY_FIELDS, "hierarchy"))
-        results.extend(check_fields(body, REQUIRED_BUSINESS_VALUE_FIELDS, "business-value"))
+        results.extend(check_sections(body, rules["issue_required_sections"]))
+        results.extend(check_fields(body, rules["issue_required_hierarchy_fields"], "hierarchy"))
+        results.extend(check_fields(body, rules["issue_required_business_value_fields"], "business-value"))
 
     return normalized_kind, results
 
 
-def render_markdown(kind: str, results: list[CheckResult]) -> str:
+def render_markdown(kind: str, results: list[CheckResult], reference_artifacts: Iterable[str]) -> str:
     passed_count = sum(1 for result in results if result.passed)
     failed = [result for result in results if not result.passed]
 
@@ -158,10 +205,8 @@ def render_markdown(kind: str, results: list[CheckResult]) -> str:
 
     lines.append("")
     lines.append("Reference artifacts:")
-    lines.append("- `PRODUCT_PROJECT_OPERATING_MODEL.md`")
-    lines.append("- `OPERATING_GATES.md`")
-    lines.append("- `ISSUE_HIERARCHY.md`")
-    lines.append("- `BUSINESS_VALUE_TREE.md`")
+    for artifact in reference_artifacts:
+        lines.append(f"- `{artifact}`")
 
     return "\n".join(lines)
 
@@ -171,15 +216,17 @@ def main() -> int:
     parser.add_argument("--kind", choices=["issue", "pr"], required=True)
     parser.add_argument("--title", default="")
     parser.add_argument("--body", default="")
+    parser.add_argument("--rules-path", default=None)
     parser.add_argument("--markdown-output", default="methodology-guard.md")
     parser.add_argument("--json-output", default="methodology-guard.json")
     parser.add_argument("--strict", action="store_true")
     args = parser.parse_args()
 
-    kind, results = run_checks(args.kind, args.title, args.body or "")
+    rules = load_tiny_yaml_list_config(args.rules_path)
+    kind, results = run_checks(args.kind, args.title, args.body or "", rules)
     failed = [result for result in results if not result.passed]
 
-    markdown = render_markdown(kind, results)
+    markdown = render_markdown(kind, results, rules["reference_artifacts"])
     with open(args.markdown_output, "w", encoding="utf-8") as handle:
         handle.write(markdown)
 
@@ -190,6 +237,7 @@ def main() -> int:
         "total": len(results),
         "failed": [result.__dict__ for result in failed],
         "results": [result.__dict__ for result in results],
+        "rules_path": args.rules_path,
     }
     with open(args.json_output, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, indent=2)
