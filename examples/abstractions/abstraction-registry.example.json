@@ -1,0 +1,102 @@
+{
+  "registry_version": "0.1-pilot",
+  "generated_at": "2026-07-01",
+  "status": "advisory-example",
+  "principle": "abstractions should be earned, not guessed",
+  "entries": [
+    {
+      "abstraction_id": "abs-methodology-guard-pilot",
+      "name": "Methodology Guard Pilot",
+      "status": "trial",
+      "namespace": "GuitarAlchemist.GitHub.Methodology.Workflow",
+      "source_artifacts": [
+        ".github#28",
+        ".github#30",
+        "METHODOLOGY_GUARD.md",
+        ".github/workflows/methodology-guard.yml",
+        ".github/actions/methodology-guard/action.yml"
+      ],
+      "problem": "Issues and PRs drift without hierarchy, business value, review mode, evidence, or scope/boundary information.",
+      "proposed_block_type": "workflow",
+      "owner_scope": ".github mechanism during pilot; Demerzel owns policy semantics if promoted",
+      "allowed_dependencies": [
+        "check_methodology.py CLI contract",
+        "rules.yml pilot checklist",
+        "GitHub Actions artifact upload"
+      ],
+      "forbidden_dependencies": [
+        "Demerzel policy internals inside checker script",
+        "issue labels as canonical truth",
+        "strict blocking before pilot evidence"
+      ],
+      "contract_exposed": "methodology-guard.md and methodology-guard.json",
+      "success_signal": "Two repo pilots produce useful artifact reports with tolerable false positives.",
+      "ix_metric": "false_positive_rate, review_friction_delta, missing_block_resolution_rate",
+      "risk_if_wrong": "Creates process friction and turns .github into policy authority.",
+      "safe_default": "advisory, non-strict, artifact-only",
+      "promotion_gate": "At least two consumer repos, reviewed false positives, version tag, rollback path, Demerzel policy boundary clarified.",
+      "retirement_gate": "Too noisy, no useful findings, or replaced by Demerzel-owned policy pack."
+    },
+    {
+      "abstraction_id": "abs-versioned-import-policy",
+      "name": "Versioned Import Policy",
+      "status": "incubating",
+      "namespace": "GuitarAlchemist.GitHub.Workflow.Versioning",
+      "source_artifacts": [
+        "VERSIONED_IMPORT_POLICY.md",
+        "ARCHITECTURE_AUDIT_RESPONSE_2026-07-01.md",
+        ".github#28"
+      ],
+      "problem": "Shared workflows consumed through @main create hidden coupling and hard-to-debug behavior changes.",
+      "proposed_block_type": "policy-adapter",
+      "owner_scope": ".github documents import mechanics; Demerzel should govern high-impact bump policy if it becomes policy.",
+      "allowed_dependencies": [
+        "GitHub workflow refs",
+        "release tags",
+        "consumer repo declarations"
+      ],
+      "forbidden_dependencies": [
+        "silent inheritance",
+        "bulk updates without consumer PRs",
+        "unversioned stable behavior"
+      ],
+      "contract_exposed": "explicit workflow_ref, policy_ref, mode, and rollback path",
+      "success_signal": "Consumer repos can explain exactly which shared workflow version they run and why.",
+      "ix_metric": "rollback_success_rate, bump_review_time, unexpected_behavior_change_count",
+      "risk_if_wrong": "Creates bureaucracy around simple pilot workflows.",
+      "safe_default": "@main allowed only for pilot/advisory/non-blocking behavior",
+      "promotion_gate": "A stable shared workflow has at least two consumers and a version tag.",
+      "retirement_gate": "No shared workflows reach stable status or policy proves unnecessary."
+    },
+    {
+      "abstraction_id": "abs-agent-config-dedup",
+      "name": "Shared Agent Configuration Deduplication",
+      "status": "candidate",
+      "namespace": "GuitarAlchemist.GitHub.AgentConfig",
+      "source_artifacts": [
+        "architecture audit observation",
+        "ga-godot skills/compact config commits",
+        "demerzel-bot skills/compact config commits"
+      ],
+      "problem": "Agent skills, compact thresholds, auth, and cost-safe conventions may be copied across repos.",
+      "proposed_block_type": "template-or-action",
+      "owner_scope": ".github mechanism, with Demerzel/TARS/IX boundaries for policy/reasoning/metrics",
+      "allowed_dependencies": [
+        "repo-local config files",
+        "documented agent setup checklist"
+      ],
+      "forbidden_dependencies": [
+        "global hidden agent behavior",
+        "unreviewed prompt/model coupling across all repos",
+        "budget/auth truth split across repos"
+      ],
+      "contract_exposed": "TBD after inspecting two concrete consumer configs",
+      "success_signal": "Two repos share the same setup with less copy-paste and clear local overrides.",
+      "ix_metric": "copy_paste_reduction, setup_drift_count, agent_config_incident_count",
+      "risk_if_wrong": "Over-standardizes repo-specific agent behavior.",
+      "safe_default": "observe and document only",
+      "promotion_gate": "Two concrete duplicated configs are reviewed and a minimal contract is obvious.",
+      "retirement_gate": "Configs diverge for valid repo-specific reasons."
+    }
+  ]
+}
