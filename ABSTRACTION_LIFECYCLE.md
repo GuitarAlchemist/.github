@@ -2,7 +2,7 @@
 
 Date: 2026-07-01
 
-This document defines how GuitarAlchemist should collect, incubate, apply, evaluate, promote, and retire abstractions.
+This document defines how GuitarAlchemist should collect, incubate, trial, evaluate, promote, apply, generalize, reject, quarantine, deprecate, and retire abstractions.
 
 ## Core thesis
 
@@ -10,7 +10,37 @@ This document defines how GuitarAlchemist should collect, incubate, apply, evalu
 Abstractions should be earned, not guessed.
 ```
 
-A useful abstraction usually emerges from repeated concrete work. The workflow should collect candidates automatically, incubate them safely, apply them in narrow contexts, and only promote them when they reduce friction without hiding important evidence.
+The abstraction lifecycle exists primarily as a brake against premature abstraction.
+
+It must not become a process factory.
+
+A useful abstraction usually emerges from repeated concrete work. The workflow should capture candidates, incubate them safely, apply them in narrow contexts, measure their usefulness, and only promote them when they reduce friction without hiding important evidence.
+
+## Anti-usine-a-gaz rule
+
+```text
+The governance/process layer must not grow faster than the product/runtime layer it is supposed to help.
+```
+
+Therefore:
+
+```text
+No org-level promotion without concrete reuse evidence.
+No blocking abstraction process before advisory evidence.
+No new abstraction machinery unless it removes more friction than it adds.
+```
+
+## Ownership boundary
+
+```text
+.github   = mechanism, templates, reusable workflows, reports
+Demerzel  = policy semantics, lifecycle gates, promotion/retirement authority
+TARS      = reasoning, triage interpretation, /teach and second-brain learning
+IX        = usefulness metrics, false positives, review friction, reuse scoring
+Human     = final authority for high-impact promotions
+```
+
+`.github` may host this document while the process is being shaped, but governance semantics should migrate to Demerzel once stable.
 
 ## Why this matters
 
@@ -25,13 +55,13 @@ agents over-generalize too early
 humans lose visibility into why a block exists
 ```
 
-With an abstraction lifecycle:
+With a disciplined lifecycle:
 
 ```text
 repeated patterns are captured
 weak abstractions stay in incubation
 stable abstractions become templates/actions/rules
-failed abstractions can be retired
+failed abstractions can be rejected, quarantined, retired, or superseded
 TARS can teach recurring concepts
 IX can measure usefulness
 Demerzel can govern promotion gates
@@ -44,11 +74,18 @@ observed
 -> candidate
 -> incubating
 -> trial
+-> evaluated
 -> promoted
 -> applied
--> evaluated
 -> generalized
--> retired | superseded
+
+alternative exits:
+-> rejected
+-> quarantined
+-> deprecated
+-> sunset
+-> retired
+-> superseded
 ```
 
 ## State definitions
@@ -67,6 +104,13 @@ same GitHub workflow shape
 same TARS /teach misconception
 ```
 
+Allowed action:
+
+```text
+capture note only
+no extraction unless risk is high
+```
+
 ### candidate
 
 The pattern appears important enough to capture.
@@ -75,9 +119,17 @@ Required:
 
 ```text
 source artifacts
-repeated context or expected reuse
+repeated context or plausible reuse
 problem solved
 scope boundary
+owner hypothesis
+```
+
+Allowed action:
+
+```text
+open candidate note or fill abstraction-candidate template
+no enforcement
 ```
 
 ### incubating
@@ -94,6 +146,14 @@ manual checklist
 advisory report
 ```
 
+Required:
+
+```text
+safe default
+non-goal list
+retirement path
+```
+
 ### trial
 
 The abstraction is used in one or two low-risk workflows or issues.
@@ -102,11 +162,31 @@ Required:
 
 ```text
 pilot scope
+explicit import/version/ref
 safe default
 rollback path
 success signal
 false-positive watch
 ```
+
+### evaluated
+
+Usefulness is checked after real usage.
+
+Signals:
+
+```text
+reduced review friction
+fewer repeated comments
+fewer missing sections
+fewer false positives
+clearer evidence packets
+better review-mode routing
+learning/memory reuse
+less copy-paste
+```
+
+IX should own the measurement model.
 
 ### promoted
 
@@ -126,6 +206,16 @@ TARS /teach lesson
 IX metric
 ```
 
+Promotion requires evidence.
+
+Minimum gate:
+
+```text
+at least two real consumers
+or one high-risk repeated failure
+or explicit human decision that the value justifies early promotion
+```
+
 ### applied
 
 The abstraction is installed or used across one or more repos/workflows.
@@ -137,22 +227,7 @@ consumer list
 version/reference
 usage guide
 owner
-```
-
-### evaluated
-
-Usefulness is checked after real usage.
-
-Signals:
-
-```text
-reduced review friction
-fewer repeated comments
-fewer missing sections
-fewer false positives
-clearer evidence packets
-better review-mode routing
-learning/memory reuse
+rollback path
 ```
 
 ### generalized
@@ -166,6 +241,62 @@ used successfully in at least two scopes
 contract is stable
 false positives are acceptable
 business value is clear
+policy/mechanism boundary is explicit
+```
+
+### rejected
+
+The abstraction is intentionally not pursued.
+
+Required:
+
+```text
+rationale
+source artifacts
+what would change the decision
+```
+
+Purpose:
+
+```text
+avoid rediscovering and relitigating the same idea repeatedly
+```
+
+### quarantined
+
+The abstraction caused harm, noise, false positives, or unclear behavior after trial/adoption.
+
+Required:
+
+```text
+affected consumers
+failure mode
+rollback action
+retest condition
+```
+
+### deprecated
+
+The abstraction still exists but should not be adopted by new consumers.
+
+Required:
+
+```text
+replacement path
+sunset target
+current consumers
+```
+
+### sunset
+
+The abstraction is scheduled for removal.
+
+Required:
+
+```text
+removal criteria
+migration checklist
+owner approval
 ```
 
 ### retired / superseded
@@ -198,6 +329,8 @@ Demerzel policy decisions
 MEMORY.md lessons
 ```
 
+Collection should create advisory artifacts only until a human approves promotion gates.
+
 ## Abstraction heads
 
 These are specialized attention heads for abstraction management.
@@ -228,13 +361,20 @@ Policy Head
   detects abstractions that need Demerzel gates or review modes
 ```
 
+Safe default:
+
+```text
+Heads emit signals only.
+They do not mutate issues, labels, policy state, or workflow behavior.
+```
+
 ## Abstraction candidate contract
 
 ```json
 {
   "abstraction_id": "",
   "name": "",
-  "status": "observed | candidate | incubating | trial | promoted | applied | evaluated | generalized | retired | superseded",
+  "status": "observed | candidate | incubating | trial | evaluated | promoted | applied | generalized | rejected | quarantined | deprecated | sunset | retired | superseded",
   "namespace": "",
   "source_artifacts": [],
   "problem": "",
@@ -244,6 +384,7 @@ Policy Head
   "forbidden_dependencies": [],
   "contract_exposed": "",
   "success_signal": "",
+  "ix_metric": "",
   "risk_if_wrong": "",
   "safe_default": "",
   "promotion_gate": "",
@@ -266,6 +407,17 @@ at least one fixture/example exists
 business value is clear
 review mode is appropriate
 false-positive risk is acceptable
+policy/mechanism boundary is explicit
+versioning plan exists
+rollback path exists
+```
+
+Org-level reusable blocks require:
+
+```text
+at least two real consumer repos
+or one high-risk repeated failure
+or explicit human exception
 ```
 
 ## Anti-premature-abstraction guardrails
@@ -277,6 +429,8 @@ Do not enforce before advisory mode is tested.
 Do not hide evidence behind a clean summary.
 Do not turn every pattern into a workflow.
 Do not promote a block without a retirement path.
+Do not use this lifecycle to justify more process than the work needs.
+Do not let .github become policy authority.
 ```
 
 ## Application loop
@@ -286,10 +440,10 @@ Do not promote a block without a retirement path.
 2. Capture candidate.
 3. Incubate as docs/template/example.
 4. Trial in low-risk scope.
-5. Evaluate usefulness.
-6. Promote if useful.
-7. Apply wider.
-8. Retire or refine if noisy.
+5. Evaluate usefulness with IX-style signals.
+6. Promote only if evidence supports it.
+7. Apply wider through explicit versioned imports.
+8. Retire, quarantine, or refine if noisy.
 9. Teach or memorize if recurring.
 ```
 
@@ -309,10 +463,10 @@ State Machine
   tracks abstraction lifecycle state
 
 Demerzel
-  governs high-impact promotions or policy gates
+  owns policy semantics and high-impact promotion gates
 
 TARS
-  turns recurring concepts into /teach lessons and memory
+  turns recurring concepts into /teach lessons and triage reasoning artifacts
 
 IX
   measures usefulness, friction, false positives, and reuse
@@ -328,7 +482,7 @@ examples/abstractions/abstraction-registry.example.json
 ABSTRACTION_LIFECYCLE.md
 ```
 
-Later automation:
+Later automation, only after evidence:
 
 ```text
 abstraction-candidate report artifact
@@ -345,7 +499,10 @@ retirement recommendation
 - `REACT_STATE_MANAGEMENT_ANALOGY.md`
 - `WORKFLOW_STATE_MACHINE.md`
 - `METHODOLOGY_GUARD.md`
+- `VERSIONED_IMPORT_POLICY.md`
+- `ARCHITECTURE_AUDIT_RESPONSE_2026-07-01.md`
 - `.github#28`
 - `.github#29`
+- `.github#30`
 - `Demerzel#588`
 - `Demerzel#592`
