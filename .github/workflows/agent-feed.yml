@@ -36,12 +36,15 @@ jobs:
                  title:.payload.issue.title, label:(.payload.label.name // null),
                  url:.payload.issue.html_url}
               elif .type == "PullRequestEvent" and (.payload.action | IN("opened","closed","reopened","ready_for_review")) then
+                # payload.pull_request is not reliably populated in the Events
+                # API — construct the URL from repo+number, tolerate no title.
                 {type:"pr",
                  action:(if .payload.action == "closed"
-                         then (if .payload.pull_request.merged then "merged" else "closed" end)
+                         then (if (.payload.pull_request.merged // false) then "merged" else "closed" end)
                          else .payload.action end),
-                 number:.payload.number, title:.payload.pull_request.title,
-                 url:.payload.pull_request.html_url}
+                 number:.payload.number,
+                 title:(.payload.pull_request.title // null),
+                 url:("https://github.com/" + $e.repo.name + "/pull/" + (.payload.number | tostring))}
               elif .type == "IssueCommentEvent" and .payload.action == "created" then
                 {type:"comment", number:.payload.issue.number, title:.payload.issue.title,
                  snippet:((.payload.comment.body // "")[0:200]), url:.payload.comment.html_url}
