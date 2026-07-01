@@ -1,0 +1,82 @@
+name: Agent feed
+
+# Publishes a signal-only JSON feed of recent org activity (issues, PRs,
+# comments, reviews, CI failures) to the `agent-feed-data` branch so
+# pull-only LLM observers (ChatGPT Tasks / Custom GPT actions) can read:
+#   https://raw.githubusercontent.com/GuitarAlchemist/.github/agent-feed-data/feed.json
+# Same event schema as agent-feed/worker.js (the optional webhook variant).
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Build feed from org activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ORG: GuitarAlchemist
+          REPOS: "ga tars .github"
+        run: |
+          mkdir -p out
+          : > out/raw.jsonl
+          for R in $REPOS; do
+            gh api "repos/$ORG/$R/events?per_page=40" --jq '
+              .[] | . as $e |
+              (if .type == "IssuesEvent" and (.payload.action | IN("opened","closed","reopened","labeled")) then
+                {type:"issue", action:.payload.action, number:.payload.issue.number,
+                 title:.payload.issue.title, label:(.payload.label.name // null),
+                 url:.payload.issue.html_url}
+              elif .type == "PullRequestEvent" and (.payload.action | IN("opened","closed","reopened","ready_for_review")) then
+                {type:"pr",
+                 action:(if .payload.action == "closed"
+                         then (if .payload.pull_request.merged then "merged" else "closed" end)
+                         else .payload.action end),
+                 number:.payload.number, title:.payload.pull_request.title,
+                 url:.payload.pull_request.html_url}
+              elif .type == "IssueCommentEvent" and .payload.action == "created" then
+                {type:"comment", number:.payload.issue.number, title:.payload.issue.title,
+                 snippet:((.payload.comment.body // "")[0:200]), url:.payload.comment.html_url}
+              elif .type == "PullRequestReviewEvent" then
+                {type:"review", state:.payload.review.state, number:.payload.pull_request.number,
+                 title:.payload.pull_request.title, url:.payload.review.html_url}
+              else empty end)
+              | . + {ts:$e.created_at, repo:$e.repo.name, actor:$e.actor.login}
+            ' >> out/raw.jsonl || echo "::warning::events fetch failed for $R"
+            gh api "repos/$ORG/$R/actions/runs?status=failure&per_page=5" --jq '
+              .workflow_runs[]
+              | select(.updated_at > (now - 86400 | todate))
+              | {ts:.updated_at, repo:.repository.full_name, actor:.actor.login,
+                 type:"ci", workflow:.name, conclusion:.conclusion,
+                 branch:.head_branch, url:.html_url}
+            ' >> out/raw.jsonl || echo "::warning::runs fetch failed for $R"
+          done
+          jq -s '{
+            generated_at: (now | todate),
+            count: (sort_by(.ts) | reverse | .[0:60] | length),
+            events: (sort_by(.ts) | reverse | .[0:60])
+          }' out/raw.jsonl > out/feed.json
+          jq -e '.events | type == "array"' out/feed.json > /dev/null
+          echo "Feed built: $(jq .count out/feed.json) events"
+
+      - name: Publish to agent-feed-data branch (single-commit data branch)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init -q -b agent-feed-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.json
+          git commit -qm "agent feed $(date -u +%FT%TZ)"
+          git push --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            agent-feed-data
