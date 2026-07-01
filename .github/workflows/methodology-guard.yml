@@ -21,6 +21,11 @@ on:
         required: false
         type: boolean
         default: false
+      rules-path:
+        description: "Optional caller-provided methodology rules YAML path"
+        required: false
+        type: string
+        default: ""
 
 jobs:
   check:
@@ -29,103 +34,14 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Write methodology checker
-        run: |
-          cat > check_methodology.py <<'PY'
-          import argparse
-          import json
-          import os
-          import re
-
-          REQUIRED_ISSUE_SECTIONS = [
-              "summary", "hierarchy", "business value", "review mode", "routing", "non-goals"
-          ]
-          REQUIRED_PR_SECTIONS = [
-              "summary", "linked issue", "scope", "business value", "review mode", "evidence", "acceptance criteria"
-          ]
-          REQUIRED_BUSINESS_VALUE_FIELDS = [
-              "outcome", "value hypothesis", "who benefits", "how we know it worked", "risk if ignored"
-          ]
-          REQUIRED_HIERARCHY_FIELDS = ["parent", "children", "related"]
-          RESEARCH_MARKERS = {"[research]", "type:research", "research note"}
-
-          def has_heading(body, heading):
-              return re.search(rf"^#+\s+{re.escape(heading)}\s*$", body, flags=re.I | re.M) is not None
-
-          def has_field(body, field):
-              return re.search(rf"^\s*{re.escape(field)}\s*:", body, flags=re.I | re.M) is not None
-
-          def is_research(title, body):
-              text = f"{title}\n{body}".lower()
-              return any(marker in text for marker in RESEARCH_MARKERS)
-
-          def check(kind, title, body):
-              if is_research(title, body):
-                  return "research-note", []
-              missing = []
-              if kind == "pr":
-                  for section in REQUIRED_PR_SECTIONS:
-                      if not has_heading(body, section):
-                          missing.append(f"section `{section}`")
-              else:
-                  for section in REQUIRED_ISSUE_SECTIONS:
-                      if not has_heading(body, section):
-                          missing.append(f"section `{section}`")
-                  for field in REQUIRED_HIERARCHY_FIELDS:
-                      if not has_field(body, field):
-                          missing.append(f"hierarchy field `{field}:`")
-                  for field in REQUIRED_BUSINESS_VALUE_FIELDS:
-                      if not has_field(body, field):
-                          missing.append(f"business value field `{field}:`")
-              return kind, missing
-
-          def main():
-              parser = argparse.ArgumentParser()
-              parser.add_argument("--strict", action="store_true")
-              args = parser.parse_args()
-
-              kind = os.environ.get("METHODOLOGY_KIND", "issue")
-              title = os.environ.get("METHODOLOGY_TITLE", "")
-              body = os.environ.get("METHODOLOGY_BODY", "")
-
-              if kind not in {"issue", "pr"}:
-                  raise SystemExit(f"Unsupported methodology kind: {kind}")
-
-              mode, missing = check(kind, title, body)
-              status = "pass" if not missing else "needs-attention"
-              report = [
-                  "## Methodology Guard",
-                  "",
-                  f"Mode: `{mode}`",
-                  f"Status: `{status}`",
-                  "",
-              ]
-              if missing:
-                  report += ["### Missing items", ""] + [f"- {item}" for item in missing]
-                  report += ["", "Suggested action: add missing blocks or mark this as `[Research]` if intentionally not execution-ready."]
-              else:
-                  report.append("All required methodology sections were found.")
-
-              output = "\n".join(report)
-              print(output)
-              open("methodology-guard.md", "w", encoding="utf-8").write(output)
-              open("methodology-guard.json", "w", encoding="utf-8").write(json.dumps({"status": status, "missing": missing}, indent=2))
-              if args.strict and missing:
-                  raise SystemExit(1)
-
-          if __name__ == "__main__":
-              main()
-          PY
-
-      - name: Run methodology checker
-        env:
-          METHODOLOGY_KIND: ${{ inputs.kind }}
-          METHODOLOGY_TITLE: ${{ inputs.title }}
-          METHODOLOGY_BODY: ${{ inputs.body }}
-        run: |
-          STRICT_FLAG=""
-          if [ "${{ inputs.strict }}" = "true" ]; then STRICT_FLAG="--strict"; fi
-          python3 check_methodology.py $STRICT_FLAG
+      - name: Run methodology guard
+        uses: GuitarAlchemist/.github/.github/actions/methodology-guard@main
+        with:
+          kind: ${{ inputs.kind }}
+          title: ${{ inputs.title }}
+          body: ${{ inputs.body }}
+          strict: ${{ inputs.strict }}
+          rules-path: ${{ inputs.rules-path }}
 
       - name: Upload methodology report
         uses: actions/upload-artifact@v4
