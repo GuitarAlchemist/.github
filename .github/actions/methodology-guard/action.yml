@@ -4,7 +4,7 @@ description: Check issue or pull request text for required methodology sections 
 
 inputs:
   kind:
-    description: Artifact kind: issue or pr
+    description: Artifact kind, either issue or pr
     required: true
   title:
     description: Issue or PR title
@@ -18,9 +18,9 @@ inputs:
     required: false
     default: "false"
   rules-path:
-    description: Path to methodology rules YAML
+    description: Optional caller-provided methodology rules YAML path
     required: false
-    default: .github/methodology/rules.yml
+    default: ""
 
 runs:
   using: composite
@@ -36,11 +36,16 @@ runs:
         STRICT_FLAG=""
         if [ "${{ inputs.strict }}" = "true" ]; then STRICT_FLAG="--strict"; fi
 
+        RULES_PATH="$METHODOLOGY_RULES_PATH"
+        if [ -z "$RULES_PATH" ] || [ ! -f "$RULES_PATH" ]; then
+          RULES_PATH="${{ github.action_path }}/../../methodology/rules.yml"
+        fi
+
         python3 "${{ github.action_path }}/../../scripts/check_methodology.py" \
           --kind "$METHODOLOGY_KIND" \
           --title "$METHODOLOGY_TITLE" \
           --body "$METHODOLOGY_BODY" \
-          --rules-path "$METHODOLOGY_RULES_PATH" \
+          --rules-path "$RULES_PATH" \
           --markdown-output methodology-guard.md \
           --json-output methodology-guard.json \
           $STRICT_FLAG
