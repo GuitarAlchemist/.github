@@ -5,7 +5,9 @@ on:
   pull_request:
     paths:
       - '.github/workflows/methodology-guard.yml'
+      - '.github/actions/methodology-guard/action.yml'
       - '.github/scripts/check_methodology.py'
+      - '.github/methodology/rules.yml'
       - 'tests/methodology/**'
 
 permissions:
@@ -17,19 +19,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Pass fixture should pass
-        env:
-          METHODOLOGY_KIND: issue
-          METHODOLOGY_TITLE: Structured Issue
-          METHODOLOGY_BODY: ${{ hashFiles('tests/methodology/pass-structured-issue.md') }}
         run: |
           BODY="$(cat tests/methodology/pass-structured-issue.md)"
           python3 .github/scripts/check_methodology.py \
             --kind issue \
             --title "Structured Issue" \
             --body "$BODY" \
+            --rules-path .github/methodology/rules.yml \
             --strict
 
       - name: Research note should pass as advisory
@@ -39,6 +38,7 @@ jobs:
             --kind issue \
             --title "[Research] Example" \
             --body "$BODY" \
+            --rules-path .github/methodology/rules.yml \
             --strict
 
       - name: Missing business value fixture should fail in strict mode
@@ -49,6 +49,7 @@ jobs:
             --kind issue \
             --title "Incomplete Issue" \
             --body "$BODY" \
+            --rules-path .github/methodology/rules.yml \
             --strict
           EXIT_CODE=$?
           set -e
@@ -57,3 +58,57 @@ jobs:
             exit 1
           fi
           echo "Strict checker failed as expected."
+
+      - name: Composite action should run on pass fixture
+        uses: ./.github/actions/methodology-guard
+        with:
+          kind: issue
+          title: Structured Issue
+          body: |
+            # Summary
+
+            Structured issue body.
+
+            # Hierarchy
+
+            Parent:
+            - GuitarAlchemist/.github#27
+
+            Children:
+            -
+
+            Related:
+            - GuitarAlchemist/.github#28
+
+            # Business value
+
+            Outcome:
+            - Improve methodology.
+
+            Value hypothesis:
+            - Structured checks reduce drift.
+
+            Who benefits:
+            - Maintainer and agents.
+
+            How we know it worked:
+            - Guard passes.
+
+            Risk if ignored:
+            - Drift returns.
+
+            # Review mode
+
+            Mode:
+            - fast-review
+
+            # Routing
+
+            Selected lane:
+            - Jules
+
+            # Non-goals
+
+            - Runtime changes.
+          strict: "true"
+          rules-path: .github/methodology/rules.yml
