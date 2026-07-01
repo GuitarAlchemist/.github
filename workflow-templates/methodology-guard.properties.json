@@ -1,11 +1,10 @@
 {
   "name": "Methodology Guard",
   "description": "Checks issues and pull requests for hierarchy, business value, review mode, routing, and evidence blocks.",
-  "iconName": "check-circle",
+  "iconName": "octicon check-circle",
   "categories": [
     "Automation",
-    "Code Review",
-    "Project Management"
+    "Code Review"
   ],
   "filePatterns": [
     ".*"
