@@ -63,3 +63,88 @@ For completed documentation epics:
 - Do not force-close issues without implementation evidence.
 - Do not use this workaround for disputed, duplicate, or not-planned issues without human confirmation.
 - Do not infer completion from a PR title alone; verify the merged content or linked evidence.
+
+## 2026-07-01 — Issue hygiene checklist
+
+### Purpose
+
+Every important issue should be usable by a future human or agent without needing hidden conversation context.
+
+### Required checklist
+
+Before creating or updating an important issue, verify:
+
+```text
+Parent?
+Children?
+Related?
+Business value?
+Metric or success signal?
+Risk if ignored?
+Evidence or source artifact?
+Owner repo role?
+Agent routing?
+Non-goals?
+```
+
+### Recommended issue block
+
+```markdown
+## Hierarchy
+
+Parent:
+-
+
+Children:
+-
+
+Related:
+-
+
+## Business value
+
+Outcome:
+-
+
+Value hypothesis:
+-
+
+Who benefits:
+-
+
+How we know it worked:
+-
+
+Risk if ignored:
+-
+
+## Routing
+
+```text
+Jules  = docs/examples/templates
+Claude = critique/review/splitting
+Codex  = isolated validation/prototype
+Human  = final decision authority
+```
+
+## Non-goals
+
+-
+```
+
+### Sync rule
+
+```text
+When an issue relationship changes, update both:
+
+1. ISSUE_HIERARCHY.md
+2. BUSINESS_VALUE_TREE.md
+```
+
+Also add local issue comments so the relationship is visible from each repo.
+
+### Related artifacts
+
+- `ISSUE_HIERARCHY.md`
+- `BUSINESS_VALUE_TREE.md`
+- `.github#27` — Cross-Repo Issue Hierarchy Sync Protocol
