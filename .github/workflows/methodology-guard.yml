@@ -34,6 +34,7 @@ jobs:
           cat > check_methodology.py <<'PY'
           import argparse
           import json
+          import os
           import re
 
           REQUIRED_ISSUE_SECTIONS = [
@@ -80,13 +81,17 @@ jobs:
 
           def main():
               parser = argparse.ArgumentParser()
-              parser.add_argument("--kind", choices=["issue", "pr"], required=True)
-              parser.add_argument("--title", default="")
-              parser.add_argument("--body", default="")
               parser.add_argument("--strict", action="store_true")
               args = parser.parse_args()
 
-              mode, missing = check(args.kind, args.title, args.body or "")
+              kind = os.environ.get("METHODOLOGY_KIND", "issue")
+              title = os.environ.get("METHODOLOGY_TITLE", "")
+              body = os.environ.get("METHODOLOGY_BODY", "")
+
+              if kind not in {"issue", "pr"}:
+                  raise SystemExit(f"Unsupported methodology kind: {kind}")
+
+              mode, missing = check(kind, title, body)
               status = "pass" if not missing else "needs-attention"
               report = [
                   "## Methodology Guard",
@@ -113,14 +118,14 @@ jobs:
           PY
 
       - name: Run methodology checker
+        env:
+          METHODOLOGY_KIND: ${{ inputs.kind }}
+          METHODOLOGY_TITLE: ${{ inputs.title }}
+          METHODOLOGY_BODY: ${{ inputs.body }}
         run: |
           STRICT_FLAG=""
           if [ "${{ inputs.strict }}" = "true" ]; then STRICT_FLAG="--strict"; fi
-          python3 check_methodology.py \
-            --kind "${{ inputs.kind }}" \
-            --title "${{ inputs.title }}" \
-            --body "${{ inputs.body }}" \
-            $STRICT_FLAG
+          python3 check_methodology.py $STRICT_FLAG
 
       - name: Upload methodology report
         uses: actions/upload-artifact@v4
