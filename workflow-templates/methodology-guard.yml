@@ -11,8 +11,9 @@ permissions:
   issues: read
   pull-requests: read
 
-env:
-  STRICT_METHODOLOGY_GUARD: "false"
+concurrency:
+  group: methodology-guard-${{ github.event_name }}-${{ github.event.issue.number || github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
 
 jobs:
   issue-methodology:
