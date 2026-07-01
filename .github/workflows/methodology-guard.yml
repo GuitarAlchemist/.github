@@ -1,0 +1,54 @@
+name: Methodology Guard
+
+on:
+  workflow_call:
+    inputs:
+      kind:
+        description: "Artifact kind: issue or pr"
+        required: true
+        type: string
+      title:
+        description: "Issue or PR title"
+        required: true
+        type: string
+      body:
+        description: "Issue or PR body"
+        required: false
+        type: string
+        default: ""
+      strict:
+        description: "Fail the workflow when required sections are missing"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  check:
+    name: Check methodology
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout methodology repository
+        uses: actions/checkout@v6
+        with:
+          repository: GuitarAlchemist/.github
+          path: methodology
+
+      - name: Run methodology checker
+        run: |
+          python3 methodology/.github/scripts/check_methodology.py \
+            --kind "${{ inputs.kind }}" \
+            --title "${{ inputs.title }}" \
+            --body "${{ inputs.body }}" \
+            --markdown-output methodology-guard.md \
+            --json-output methodology-guard.json \
+            ${{ inputs.strict && '--strict' || '' }}
+
+      - name: Upload methodology report
+        uses: actions/upload-artifact@v4
+        with:
+          name: methodology-guard-report
+          path: |
+            methodology-guard.md
+            methodology-guard.json
