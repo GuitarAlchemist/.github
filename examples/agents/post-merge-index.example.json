@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-07-01T17:30:00Z",
+  "retrospectives": [
+    {
+      "repo": "GuitarAlchemist/tars",
+      "pr": 161,
+      "issue": 136,
+      "lane": "jules/docs-state-artifacts",
+      "merge_sha": "fd407694970c76d4d2b16c0370b49defda786682",
+      "scope_classes": ["docs", "examples", "state-artifact", "governance"],
+      "review_friction": "none",
+      "priority_impact": "promote-to-pattern",
+      "report": "examples/agents/post-merge/tars-161-afk-state-artifacts.md",
+      "follow_ups": [
+        "GuitarAlchemist/tars#137",
+        "GuitarAlchemist/.github#17"
+      ]
+    }
+  ]
+}
