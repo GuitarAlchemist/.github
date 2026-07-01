@@ -2,6 +2,28 @@
 
 Date: 2026-07-01
 
+## Final correction (second pass, 2026-07-01)
+
+The first-pass correction below over-materialized the fix: it answered "too many process docs" with more process docs. The second pass applied the "delete 50% of the process" recommendation:
+
+```text
+- VERSIONED_IMPORT_POLICY.md, ABSTRACTION_LIFECYCLE.md, and
+  COUPLING_SCOPING_NAMESPACE_PRINCIPLES.md were merged into a single
+  compact ENGINEERING_PRINCIPLES.md and deleted.
+- examples/abstractions/abstraction-registry.example.json was deleted
+  (no registry before real reuse evidence).
+- ix/docs/metrics/methodology-guard-usefulness-metrics.md and
+  tars/docs/triage/methodology-guard-triage-reasoning.md were deleted
+  (IX measures only after real data; TARS reasons only after real reasoning).
+- Demerzel/docs/policy/workflow-policy-pack-contract.md survives as a
+  draft contract, activated only after pilot evidence.
+- Methodology Guard stays pilot/advisory/artifact-only.
+```
+
+File references in the historical body below describe documents that no longer exist as standalone files; their surviving content lives in `ENGINEERING_PRINCIPLES.md`.
+
+Recommended next work: return to GA product incident `ga#493`.
+
 You identified the core risk correctly: the governance/process layer was starting to grow faster than the product/runtime layer it is supposed to help.
 
 I applied a corrective pass.
