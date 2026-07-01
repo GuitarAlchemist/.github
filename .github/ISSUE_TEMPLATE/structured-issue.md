@@ -21,6 +21,29 @@ Children:
 Related:
 -
 
+## Scope / boundary
+
+Namespace:
+- <!-- Example: GuitarAlchemist.GitHub.Methodology.Rules -->
+
+Owner scope:
+-
+
+In scope:
+-
+
+Out of scope:
+-
+
+Allowed dependencies:
+-
+
+Forbidden dependencies:
+-
+
+Contract exposed:
+-
+
 ## Business value
 
 Outcome:
