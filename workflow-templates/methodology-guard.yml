@@ -1,0 +1,36 @@
+name: Methodology Guard
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+env:
+  STRICT_METHODOLOGY_GUARD: "false"
+
+jobs:
+  issue-methodology:
+    name: Issue methodology
+    if: github.event_name == 'issues'
+    uses: GuitarAlchemist/.github/.github/workflows/methodology-guard.yml@main
+    with:
+      kind: issue
+      title: ${{ github.event.issue.title }}
+      body: ${{ github.event.issue.body || '' }}
+      strict: false
+
+  pr-methodology:
+    name: PR methodology
+    if: github.event_name == 'pull_request'
+    uses: GuitarAlchemist/.github/.github/workflows/methodology-guard.yml@main
+    with:
+      kind: pr
+      title: ${{ github.event.pull_request.title }}
+      body: ${{ github.event.pull_request.body || '' }}
+      strict: false
