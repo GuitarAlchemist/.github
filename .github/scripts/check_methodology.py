@@ -28,6 +28,7 @@ DEFAULT_RULES = {
     "issue_required_sections": [
         "summary",
         "hierarchy",
+        "scope / boundary",
         "business value",
         "review mode",
         "routing",
@@ -45,14 +46,31 @@ DEFAULT_RULES = {
         "children",
         "related",
     ],
+    "issue_required_scope_boundary_fields": [
+        "namespace",
+        "owner scope",
+        "in scope",
+        "out of scope",
+        "allowed dependencies",
+        "forbidden dependencies",
+        "contract exposed",
+    ],
     "pr_required_sections": [
         "summary",
         "linked issue",
         "scope",
+        "boundary contract",
         "business value",
         "review mode",
         "evidence",
         "acceptance criteria",
+    ],
+    "pr_required_boundary_fields": [
+        "namespace affected",
+        "contract changed",
+        "expected dependencies touched",
+        "dependencies intentionally avoided",
+        "derived state kept derived",
     ],
     "research_markers": [
         "[research]",
@@ -65,6 +83,7 @@ DEFAULT_RULES = {
         "ISSUE_HIERARCHY.md",
         "BUSINESS_VALUE_TREE.md",
         "WORKFLOW_STATE_MACHINE.md",
+        "COUPLING_SCOPING_NAMESPACE_PRINCIPLES.md",
     ],
 }
 
@@ -171,9 +190,11 @@ def run_checks(kind: str, title: str, body: str, rules: dict[str, list[str]]) ->
 
     if normalized_kind == "pr":
         results.extend(check_sections(body, rules["pr_required_sections"]))
+        results.extend(check_fields(body, rules.get("pr_required_boundary_fields", []), "boundary"))
     else:
         results.extend(check_sections(body, rules["issue_required_sections"]))
         results.extend(check_fields(body, rules["issue_required_hierarchy_fields"], "hierarchy"))
+        results.extend(check_fields(body, rules.get("issue_required_scope_boundary_fields", []), "scope-boundary"))
         results.extend(check_fields(body, rules["issue_required_business_value_fields"], "business-value"))
 
     return normalized_kind, results
