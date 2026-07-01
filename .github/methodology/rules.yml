@@ -6,6 +6,7 @@
 issue_required_sections:
   - summary
   - hierarchy
+  - scope / boundary
   - business value
   - review mode
   - routing
@@ -15,6 +16,15 @@ issue_required_hierarchy_fields:
   - parent
   - children
   - related
+
+issue_required_scope_boundary_fields:
+  - namespace
+  - owner scope
+  - in scope
+  - out of scope
+  - allowed dependencies
+  - forbidden dependencies
+  - contract exposed
 
 issue_required_business_value_fields:
   - outcome
@@ -27,10 +37,18 @@ pr_required_sections:
   - summary
   - linked issue
   - scope
+  - boundary contract
   - business value
   - review mode
   - evidence
   - acceptance criteria
+
+pr_required_boundary_fields:
+  - namespace affected
+  - contract changed
+  - expected dependencies touched
+  - dependencies intentionally avoided
+  - derived state kept derived
 
 research_markers:
   - "[research]"
@@ -43,3 +61,4 @@ reference_artifacts:
   - ISSUE_HIERARCHY.md
   - BUSINESS_VALUE_TREE.md
   - WORKFLOW_STATE_MACHINE.md
+  - COUPLING_SCOPING_NAMESPACE_PRINCIPLES.md
