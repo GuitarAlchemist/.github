@@ -1,6 +1,6 @@
 name: Agent feed
 
-# Publishes a signal-only JSON feed of recent org activity (issues, PRs,
+# Publishes a signal-only JSON feed of recent org-wide activity (issues, PRs,
 # comments, reviews, CI failures) to the `agent-feed-data` branch so
 # pull-only LLM observers (ChatGPT Tasks / Custom GPT actions) can read:
 #   https://raw.githubusercontent.com/GuitarAlchemist/.github/agent-feed-data/feed.json
@@ -22,12 +22,20 @@ jobs:
     steps:
       - name: Build feed from org activity
         env:
-          GH_TOKEN: ${{ github.token }}
+          # PAT_TOKEN (if configured) also sees private repos; the default
+          # token still covers every public repo in the org.
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
           ORG: GuitarAlchemist
-          REPOS: "ga tars .github"
         run: |
           mkdir -p out
           : > out/raw.jsonl
+          # Enumerate the whole org dynamically (non-archived) so new repos
+          # join the feed automatically; fall back to the core trio if the
+          # listing call itself fails.
+          REPOS=$(gh api "orgs/$ORG/repos?per_page=100&type=all&sort=pushed" \
+            --jq '.[] | select(.archived | not) | .name' || true)
+          [ -z "$REPOS" ] && REPOS="ga tars .github"
+          echo "Covering repos:" $REPOS
           for R in $REPOS; do
             gh api "repos/$ORG/$R/events?per_page=40" --jq '
               .[] | . as $e |
@@ -64,8 +72,8 @@ jobs:
           done
           jq -s '{
             generated_at: (now | todate),
-            count: (sort_by(.ts) | reverse | .[0:60] | length),
-            events: (sort_by(.ts) | reverse | .[0:60])
+            count: (sort_by(.ts) | reverse | .[0:100] | length),
+            events: (sort_by(.ts) | reverse | .[0:100])
           }' out/raw.jsonl > out/feed.json
           jq -e '.events | type == "array"' out/feed.json > /dev/null
           echo "Feed built: $(jq .count out/feed.json) events"
