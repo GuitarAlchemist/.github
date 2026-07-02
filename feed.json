@@ -1,0 +1,582 @@
+{
+  "generated_at": "2026-07-02T00:08:24Z",
+  "count": 56,
+  "events": [
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 35,
+      "repo": "GuitarAlchemist/.github",
+      "title": null,
+      "ts": "2026-07-01T23:33:12Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/35"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 34,
+      "repo": "GuitarAlchemist/.github",
+      "title": null,
+      "ts": "2026-07-01T23:30:19Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/34"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 174,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "docs(teach): drop deleted triage-reasoning doc from lesson source artifacts",
+      "ts": "2026-07-01T23:23:32Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/174#issuecomment-4860821888"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 172,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-01T23:21:44Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/172#pullrequestreview-4613438028"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "claude/governance-consolidation-s0nzn2",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-07-01T23:21:20Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/28554267940",
+      "workflow": "Claude Code Review"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 174,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 0f",
+      "title": "docs(teach): drop deleted triage-reasoning doc from lesson source artifacts",
+      "ts": "2026-07-01T23:20:57Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/174#issuecomment-4860809990"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 174,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-01T23:20:50Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/174"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "add-teach-lesson-pack-governance-15584838423292050049",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-07-01T23:20:16Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/28554221292",
+      "workflow": "Claude Code Review"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 166,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Story][TARS-V2] Add /teach Lesson Pack for Review Routing and Goodhart",
+      "ts": "2026-07-01T23:19:56Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/166"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 33,
+      "repo": "GuitarAlchemist/.github",
+      "title": null,
+      "ts": "2026-07-01T23:18:36Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/33"
+    },
+    {
+      "actor": "google-labs-jules[bot]",
+      "number": 151,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "> Closing after file-level review (2026-07-01 delegated triage, second pass): the branch has drifted far beyond issue #115's scope — it re-adds `.github/workflows/afk-router.yml` (which now exists on ",
+      "title": "Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T22:12:25Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/151#issuecomment-4860445512"
+    },
+    {
+      "actor": "google-labs-jules[bot]",
+      "number": 142,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "> Closing after file-level review (2026-07-01 delegated triage, second pass): `main` already carries a richer port of this skill, merged 2026-06-30 via #146 (`docs/agents/skills/anti-ball-of-mud.skill",
+      "title": "feat(agents): Add anti-ball-of-mud skill for AFK agents",
+      "ts": "2026-07-01T21:53:22Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/142#issuecomment-4860331216"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-07-01T21:52:04Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/28550132148",
+      "workflow": "Claude"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-07-01T21:51:59Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/28550131392",
+      "workflow": "Claude"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 132,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Claude Code is working… <img src=\"https://github.com/user-attachments/assets/5ac382c7-e004-429b-8e35-7feb3e8f9c6f\" width=\"14px\" height=\"14px\" style=\"vertical-align: middle; margin-left: 4px;\" />\n\nI'll",
+      "title": "[Task][TARS-V2][P1] Add Jules PR watchdog for cloud-agent observability",
+      "ts": "2026-07-01T21:51:59Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/132#issuecomment-4860323570"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 115,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Claude Code is working… <img src=\"https://github.com/user-attachments/assets/5ac382c7-e004-429b-8e35-7feb3e8f9c6f\" width=\"14px\" height=\"14px\" style=\"vertical-align: middle; margin-left: 4px;\" />\n\nI'll",
+      "title": "[Task][TARS-V2][P0] Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T21:51:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/115#issuecomment-4860323259"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 115,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "@claude please implement this issue and open a pull request. Follow the conventions in AGENTS.md / CLAUDE.md.",
+      "title": "[Task][TARS-V2][P0] Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T21:51:44Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/115#issuecomment-4860322146"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 132,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "@claude please implement this issue and open a pull request. Follow the conventions in AGENTS.md / CLAUDE.md.",
+      "title": "[Task][TARS-V2][P1] Add Jules PR watchdog for cloud-agent observability",
+      "ts": "2026-07-01T21:51:44Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/132#issuecomment-4860322166"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "worker:claude",
+      "number": 132,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Task][TARS-V2][P1] Add Jules PR watchdog for cloud-agent observability",
+      "ts": "2026-07-01T21:51:34Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/132"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "worker:claude",
+      "number": 115,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Task][TARS-V2][P0] Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T21:51:33Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/115"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "worker:claude",
+      "number": 132,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Task][TARS-V2][P1] Add Jules PR watchdog for cloud-agent observability",
+      "ts": "2026-07-01T21:51:18Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/132"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "worker:claude",
+      "number": 115,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Task][TARS-V2][P0] Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T21:51:18Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/115"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-01T21:51:03Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/28549832731",
+      "workflow": "Quality Snapshot"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 149,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Closing after file-level review (2026-07-01 delegated triage, second pass): despite the title, this branch contains no watchdog workflow — it carries the watchdog *design doc* + state example, plus ed",
+      "title": "Add Jules PR watchdog for cloud-agent observability",
+      "ts": "2026-07-01T21:50:50Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/149#issuecomment-4860316901"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "number": 149,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-01T21:50:50Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/149"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 142,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Closing after file-level review (2026-07-01 delegated triage, second pass): `main` already carries a richer port of this skill, merged 2026-06-30 via #146 (`docs/agents/skills/anti-ball-of-mud.skill.m",
+      "title": "feat(agents): Add anti-ball-of-mud skill for AFK agents",
+      "ts": "2026-07-01T21:50:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/142#issuecomment-4860316534"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "number": 142,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-01T21:50:46Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/142"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 173,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-01T21:50:26Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/173#pullrequestreview-4613071761"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 173,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.70`\n\n## PR Review Summary\n\nFail: risk score 0.70; human review is required.\n\nAction: Do not merge unti",
+      "title": "fix(afk): self-heal jules label + dead-letter sweep in AFK router (ga mirror)",
+      "ts": "2026-07-01T21:50:10Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/173#issuecomment-4860313046"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 151,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Closing after file-level review (2026-07-01 delegated triage, second pass): the branch has drifted far beyond issue #115's scope — it re-adds `.github/workflows/afk-router.yml` (which now exists on `m",
+      "title": "Inject declared cloud-agent skills into Jules AFK prompts",
+      "ts": "2026-07-01T21:49:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/151#issuecomment-4860307507"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "number": 151,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-01T21:49:11Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/151"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-01T21:48:10Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/28549813219",
+      "workflow": "Quality Snapshot"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "claude/governance-consolidation-s0nzn2",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-07-01T21:47:57Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/28549916963",
+      "workflow": "Claude Code Review"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-01T21:46:38Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/28549833230",
+      "workflow": "Post-Merge Smoke"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 496,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on b21e839",
+      "ts": "2026-07-01T21:46:35Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/496"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 496,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on b21e839",
+      "ts": "2026-07-01T21:46:35Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/496"
+    },
+    {
+      "action": "opened",
+      "actor": "github-actions[bot]",
+      "label": null,
+      "number": 496,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on b21e839",
+      "ts": "2026-07-01T21:46:34Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/496"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-01T21:46:05Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/28549813231",
+      "workflow": "Post-Merge Smoke"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 495,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on fbb8562",
+      "ts": "2026-07-01T21:46:05Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/495"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 495,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on fbb8562",
+      "ts": "2026-07-01T21:46:05Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/495"
+    },
+    {
+      "action": "opened",
+      "actor": "github-actions[bot]",
+      "label": null,
+      "number": 495,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on fbb8562",
+      "ts": "2026-07-01T21:46:04Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/495"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "claude/governance-consolidation-s0nzn2",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-01T21:41:08Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/28549370132",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.70`\n\n## PR Review Summary\n\nFail: risk score 0.70; human review is required.\n\nAction: Do not merge unti",
+      "title": "ci: AFK router self-heal + dead-letter sweep, agent-blackbox parity with tars",
+      "ts": "2026-07-01T21:41:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494#issuecomment-4860260670"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-01T21:40:47Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494#pullrequestreview-4613031023"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- pr-token-spend -->\n**Agent token spend (estimate)**\n\n| Agent | Provider | Commits | Diff lines | Est. tokens | Est. cost |\n|---|---|---:|---:|---:|---:|\n| `claude` | anthropic | 2 | 131 | ~8.3K |",
+      "title": "ci: AFK router self-heal + dead-letter sweep, agent-blackbox parity with tars",
+      "ts": "2026-07-01T21:37:24Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494#issuecomment-4860238591"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- test-plan -->\n## Proposed test plan (heuristic)\n\n# Test plan — PR #494 (2d6dc1d3)\n\n**Generated:** 2026-07-01T21:43:18Z\n**Author:** @spareilleux\n**Scope:** 2 file(s) changed,2 files changed, 127 i",
+      "title": "ci: AFK router self-heal + dead-letter sweep, agent-blackbox parity with tars",
+      "ts": "2026-07-01T21:37:13Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494#issuecomment-4860237466"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/28549370366) for more details.",
+      "title": "ci: AFK router self-heal + dead-letter sweep, agent-blackbox parity with tars",
+      "ts": "2026-07-01T21:37:00Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494#issuecomment-4860236028"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 494,
+      "repo": "GuitarAlchemist/ga",
+      "title": null,
+      "ts": "2026-07-01T21:36:48Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/494"
+    },
+    {
+      "actor": "google-labs-jules[bot]",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "Jules is [on it](https://jules.google.com/task/17388879860746228944). When finished, you will see another comment and be able to review a PR.",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-07-01T21:31:32Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328#issuecomment-4860202468"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "jules",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-07-01T21:31:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-07-01T21:29:06Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 32,
+      "repo": "GuitarAlchemist/.github",
+      "title": null,
+      "ts": "2026-07-01T21:17:00Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/32"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "regression",
+      "number": 493,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on 47faf08",
+      "ts": "2026-07-01T04:38:39Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/493"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 493,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "### Triage: infra outage, not a regression from `47faf08`\n\nThe flagged merge (`47faf08`, PR #492) changed **only two workflow files** — `.github/workflows/claude-code-review.yml` and `.github/workflow",
+      "title": "[post-merge-smoke] Live demo regression on 47faf08",
+      "ts": "2026-07-01T04:38:36Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/493#issuecomment-4850299254"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 493,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on 47faf08",
+      "ts": "2026-07-01T04:32:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/493"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "regression",
+      "number": 493,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[post-merge-smoke] Live demo regression on 47faf08",
+      "ts": "2026-07-01T04:32:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/493"
+    }
+  ]
+}
