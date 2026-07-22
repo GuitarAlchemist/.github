@@ -1,0 +1,79 @@
+name: Reusable Claude Code Review
+
+on:
+  workflow_call:
+    inputs:
+      pr_number:
+        description: Pull request number to review
+        required: true
+        type: number
+    secrets:
+      claude_code_oauth_token:
+        required: true
+    outputs:
+      classification:
+        description: Sanitized review execution classification
+        value: ${{ jobs.review.outputs.classification }}
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+      issues: read
+      id-token: write
+    outputs:
+      classification: ${{ steps.classify.outputs.classification }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code review
+        id: claude-review
+        continue-on-error: true
+        uses: anthropics/claude-code-action@44423bdec74b97d67543eb16c110546762c110b2
+        with:
+          claude_code_oauth_token: ${{ secrets.claude_code_oauth_token }}
+          plugin_marketplaces: https://github.com/anthropics/claude-code.git
+          plugins: code-review@claude-code-plugins
+          prompt: /code-review:code-review ${{ github.repository }}/pull/${{ inputs.pr_number }}
+          show_full_output: "false"
+
+      - name: Classify sanitized result
+        id: classify
+        if: always()
+        env:
+          ACTION_OUTCOME: ${{ steps.claude-review.outcome }}
+          EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
+        run: |
+          python "$GITHUB_WORKSPACE/scripts/classify_claude_review.py" \
+            "$EXECUTION_FILE" \
+            --action-outcome "$ACTION_OUTCOME" \
+            --output "$RUNNER_TEMP/claude-review-diagnostic.json" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Publish diagnostic summary
+        if: always()
+        run: |
+          echo "## Claude review diagnostic" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat "$RUNNER_TEMP/claude-review-diagnostic.json" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload sanitized diagnostic
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-review-diagnostic-${{ github.run_id }}
+          path: ${{ runner.temp }}/claude-review-diagnostic.json
+          retention-days: 14
+
+      - name: Enforce actionable harness failures
+        if: always() && contains(fromJSON('["action-runtime-failure", "missing-result", "plugin-command", "claude-execution-error"]'), steps.classify.outputs.classification)
+        run: |
+          echo "Actionable Claude review harness failure: ${{ steps.classify.outputs.classification }}" >&2
+          exit 1
+
