@@ -31,6 +31,15 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Checkout pinned diagnostic classifier
+        uses: actions/checkout@v4
+        with:
+          repository: GuitarAlchemist/.github
+          ref: 0a36fe841e8100c79c03af4237ab0aeadfb50332
+          path: .claude-review-harness
+          sparse-checkout: scripts/classify_claude_review.py
+          sparse-checkout-cone-mode: false
+
       - name: Run Claude Code review
         id: claude-review
         continue-on-error: true
@@ -49,7 +58,7 @@ jobs:
           ACTION_OUTCOME: ${{ steps.claude-review.outcome }}
           EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
         run: |
-          python "$GITHUB_WORKSPACE/scripts/classify_claude_review.py" \
+          python "$GITHUB_WORKSPACE/.claude-review-harness/scripts/classify_claude_review.py" \
             "$EXECUTION_FILE" \
             --action-outcome "$ACTION_OUTCOME" \
             --output "$RUNNER_TEMP/claude-review-diagnostic.json" \
@@ -72,7 +81,7 @@ jobs:
           retention-days: 14
 
       - name: Enforce actionable harness failures
-        if: always() && contains(fromJSON('["action-runtime-failure", "missing-result", "plugin-command", "claude-execution-error"]'), steps.classify.outputs.classification)
+        if: always() && contains(fromJSON('["action-runtime-failure", "plugin-command", "claude-execution-error"]'), steps.classify.outputs.classification)
         run: |
           echo "Actionable Claude review harness failure: ${{ steps.classify.outputs.classification }}" >&2
           exit 1
