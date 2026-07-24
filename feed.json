@@ -1,0 +1,1030 @@
+{
+  "generated_at": "2026-07-24T07:16:45Z",
+  "count": 100,
+  "events": [
+    {
+      "actor": "spareilleux",
+      "branch": "chore/update-demerzel-20260724",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-07-24T03:29:03Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/30063727278",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "chore/update-demerzel-20260724",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-07-24T03:21:58Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/30063727254",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 257,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.65`\n\n## PR Review Summary\n\nFail: risk score 0.65; human review is required.\n\nAction: Do not merge unti",
+      "title": "chore: update Demerzel submodule (533 commits behind)",
+      "ts": "2026-07-24T03:21:54Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/257#issuecomment-5065820546"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-07-24T03:15:03Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/30063732188",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 257,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage).\nTo continue using code reviews, you c",
+      "title": "chore: update Demerzel submodule (533 commits behind)",
+      "ts": "2026-07-24T03:14:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/257#issuecomment-5065785017"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 257,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-07-24T03:14:33Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/257"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-24T02:36:29Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/30062051861",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 593,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Spike verdict — DuckDB + Parquet: **adopt selectively, and consolidate what already exists**\n\n**DuckDB + Parquet earns a place** as the analytical/offline layer for GA's *generated, append-heavy, t",
+      "title": "[Spike] Evaluate DuckDB + Parquet for analytical and generated music datasets",
+      "ts": "2026-07-23T23:03:34Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/593#issuecomment-5064380729"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 591,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "# Spike #591 — MongoDB usage, coupling & migration surface (evidence-based inventory)\n\nRead-only sweep of `GuitarAlchemist/ga` @ `feat/589-performance-intent-tracer`. Method: swept every `*.csproj` fo",
+      "title": "[Spike] Inventory current MongoDB usage, coupling, and migration surface",
+      "ts": "2026-07-23T23:01:41Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/591#issuecomment-5064369781"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 211,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[Spike] Evaluate Obsidian as the human-facing layer over the ecosystem markdown corpus",
+      "ts": "2026-07-23T22:58:20Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/211"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 48,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Spike][AIW][P1] Evaluate Microsoft Agent Framework Harness as a provider-neutral agent runtime",
+      "ts": "2026-07-23T22:48:01Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/48"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "chore/update-demerzel-20260723",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-07-23T19:38:18Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/30037851441",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "chore/update-demerzel-20260723",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-07-23T19:32:42Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/30037851411",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-07-23T19:25:19Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/30037859630",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-23T19:15:44Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/30037202467",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-07-23T15:26:56Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/30020546096",
+      "workflow": "Ecosystem Freshness"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "chore/update-demerzel-20260723",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-07-23T14:27:17Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/30014751667",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-07-23T14:13:49Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/30014764917",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Backend Test Results\n   10 files     10 suites   4m 10s ⏱️\n3 119 tests 3 105 ✅ 14 💤 0 ❌\n3 175 runs  3 154 ✅ 21 💤 0 ❌\n\nResults for commit 428729b5.\n\n[test-results]:data:application/gzip;base64,H4sIA",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T14:04:26Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059346124"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-23T13:56:43Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/30013459233",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T13:44:30Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059133212"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 567,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "Premise correction from the #589 tracer implementation (PR #598): this issue states ImprovisationSkill.ArpeggioFor and two pinning tests exist — they don't. ImprovisationSkill handles scales only, and",
+      "title": "MCP ga_arpeggio_suggestions: 'Amm7' concatenation + key-blind degree mapping gives wrong advice for borrowed chords",
+      "ts": "2026-07-23T13:41:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/567#issuecomment-5059100209"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-07-23T13:40:42Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/30012231539",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- pr-token-spend -->\n**Agent token spend (estimate)**\n\n| Agent | Provider | Commits | Diff lines | Est. tokens | Est. cost |\n|---|---|---:|---:|---:|---:|\n| `claude` | anthropic | 1 | 632 | ~26.8K ",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T13:40:36Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059092402"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- test-plan -->\n## Proposed test plan (heuristic)\n\n# Test plan — PR #598 (428729b5)\n\n**Generated:** 2026-07-23T13:40:28Z\n**Author:** @spareilleux\n**Scope:** 8 file(s) changed,8 files changed, 629 i",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T13:40:31Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059091591"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/30012218466) for more details.",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T13:40:14Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059088705"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage).\nTo continue using code reviews, you c",
+      "title": "feat(chatbot): arpeggio PerformanceIntent structured-output tracer (#589)",
+      "ts": "2026-07-23T13:40:05Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598#issuecomment-5059087164"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 598,
+      "repo": "GuitarAlchemist/ga",
+      "title": null,
+      "ts": "2026-07-23T13:40:00Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/598"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 817,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-23T13:19:19Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/817#pullrequestreview-4764437022"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-23T13:16:25Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/30010463161",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-human",
+      "number": 820,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "IXQL executor: replace LLM-as-executor with grammar-constrained emission + minimal deterministic executor",
+      "ts": "2026-07-23T13:16:04Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/820"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 820,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "Scoping (owner-directed execution pass, 2026-07-23): placement decision needed before implementation — Demerzel's no-runtime-code rule (CONTRIBUTING.md, incl. the new scripts/ tooling exception) permi",
+      "title": "IXQL executor: replace LLM-as-executor with grammar-constrained emission + minimal deterministic executor",
+      "ts": "2026-07-23T13:16:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/820#issuecomment-5058829522"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-07-23T13:15:13Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/30010370140",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 817,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "All certified review findings resolved in 58aa82b (CL-817-1..7, 10: schema constraints, waiver line, scope label, fixture test, file-position ordering, integrity-only wording). CL-817-12 adjudicated o",
+      "title": "feat(galactic): add live session bridge tracer bullet",
+      "ts": "2026-07-23T13:14:22Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/817#issuecomment-5058811872"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 821,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "Hexavalent symbol robustness: pair T/P/U/D/F/C with full names on all LLM-facing surfaces",
+      "ts": "2026-07-23T13:13:53Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/821"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 35,
+      "repo": "GuitarAlchemist/hari",
+      "title": "PRD: IX evaluation milestone — flaky-vs-real benchmark discrimination (paired counterfactual replay)",
+      "ts": "2026-07-23T13:12:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/hari/issues/35"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 35,
+      "repo": "GuitarAlchemist/hari",
+      "title": "PRD: IX evaluation milestone — flaky-vs-real benchmark discrimination (paired counterfactual replay)",
+      "ts": "2026-07-23T13:12:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/hari/issues/35"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 817,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-23T13:09:16Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/817#pullrequestreview-4764333029"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 210,
+      "repo": "GuitarAlchemist/tars",
+      "title": "Demerzel submodule is 92 commits behind",
+      "ts": "2026-07-23T13:03:12Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/210"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 209,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-23T03:31:38Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/209#pullrequestreview-4760540883"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 209,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "chore: update Demerzel submodule (91 commits behind)",
+      "ts": "2026-07-23T03:28:59Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/209#issuecomment-5053980183"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 256,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.65`\n\n## PR Review Summary\n\nFail: risk score 0.65; human review is required.\n\nAction: Do not merge unti",
+      "title": "chore: update Demerzel submodule (523 commits behind)",
+      "ts": "2026-07-23T03:28:07Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/256#issuecomment-5053975612"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 209,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | ee",
+      "title": "chore: update Demerzel submodule (91 commits behind)",
+      "ts": "2026-07-23T03:26:15Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/209#issuecomment-5053965183"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 209,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-23T03:26:10Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/209"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 256,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-23T03:24:51Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/256#pullrequestreview-4760512976"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 256,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-07-23T03:20:36Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/256"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 47,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Epic][AIW][P0] Build a durable, scalable, provider-neutral autonomous software-delivery control plane",
+      "ts": "2026-07-23T02:08:17Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/47"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 46,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Spike][AIW][P2] Benchmark Cloudflare Sandbox vs E2B vs Daytona for a provider-neutral cloud coding worker",
+      "ts": "2026-07-23T02:05:42Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/46"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 45,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Spike][AIW][P1] Benchmark managed cloud coding agents against Jules",
+      "ts": "2026-07-23T02:04:49Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/45"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 44,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Spike][AIW][P0] Evaluate GitHub Agentic Workflows as the native multi-agent control plane",
+      "ts": "2026-07-23T02:04:32Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/44"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 597,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972159933) for more details.",
+      "title": "[Spike] Evaluate MotherDuck as a cloud growth path for DuckDB + Parquet analytics",
+      "ts": "2026-07-23T01:35:29Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/597#issuecomment-5053363448"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 594,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "### Additional ADR inputs\n\nPlease include findings from these follow-up evaluations before finalizing the persistence ADR:\n\n- #595 — PostgreSQL and Databricks Lakebase operational-platform evaluation\n",
+      "title": "[Decision] Produce persistence architecture ADR from Gel, MongoDB, and DuckDB spikes",
+      "ts": "2026-07-23T01:35:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/594#issuecomment-5053362662"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 590,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "### Architecture landscape expanded\n\nTwo bounded follow-up evaluations now complement this Epic:\n\n- #595 — PostgreSQL vs Databricks Lakebase as operational data platforms\n- #596 — Neon vs Lakebase vs ",
+      "title": "[Epic] Evaluate Gel + DuckDB persistence architecture for Guitar Alchemist",
+      "ts": "2026-07-23T01:35:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/590#issuecomment-5053361874"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 596,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972149676) for more details.",
+      "title": "[Spike] Compare Neon vs Lakebase vs local PostgreSQL for agentic database branching",
+      "ts": "2026-07-23T01:35:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/596#issuecomment-5053361910"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 593,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "### Cloud growth-path follow-up added\n\n- #597 — Evaluate **MotherDuck** as a future shared/cloud analytics path for the DuckDB + Parquet layer.\n\nThe intent is explicitly **not** to replace DuckDB now.",
+      "title": "[Spike] Evaluate DuckDB + Parquet for analytical and generated music datasets",
+      "ts": "2026-07-23T01:35:04Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/593#issuecomment-5053361299"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 595,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "### Follow-up spike added\n\n- #596 — Compare **Neon vs Lakebase vs local PostgreSQL/Testcontainers** for serverless Postgres, database branching, and agentic per-PR/per-task database environments.\n\nThi",
+      "title": "[Epic] Evaluate PostgreSQL and Databricks Lakebase as operational data platforms",
+      "ts": "2026-07-23T01:34:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/595#issuecomment-5053360795"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 597,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972159933) for more details.",
+      "title": "[Spike] Evaluate MotherDuck as a cloud growth path for DuckDB + Parquet analytics",
+      "ts": "2026-07-23T01:34:54Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/597#issuecomment-5053360413"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 597,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[Spike] Evaluate MotherDuck as a cloud growth path for DuckDB + Parquet analytics",
+      "ts": "2026-07-23T01:34:45Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/597"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 596,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972149676) for more details.",
+      "title": "[Spike] Compare Neon vs Lakebase vs local PostgreSQL for agentic database branching",
+      "ts": "2026-07-23T01:34:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/596#issuecomment-5053358906"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 596,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[Spike] Compare Neon vs Lakebase vs local PostgreSQL for agentic database branching",
+      "ts": "2026-07-23T01:34:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/596"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 595,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972023420) for more details.",
+      "title": "[Epic] Evaluate PostgreSQL and Databricks Lakebase as operational data platforms",
+      "ts": "2026-07-23T01:32:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/595#issuecomment-5053346418"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 595,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29972023420) for more details.",
+      "title": "[Epic] Evaluate PostgreSQL and Databricks Lakebase as operational data platforms",
+      "ts": "2026-07-23T01:31:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/595#issuecomment-5053343669"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 595,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[Epic] Evaluate PostgreSQL and Databricks Lakebase as operational data platforms",
+      "ts": "2026-07-23T01:31:39Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/595"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 43,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Task][AIW] Generalize Jules PR watchdog into provider-agnostic agent observability",
+      "ts": "2026-07-23T01:28:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/43"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 42,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Task][AIW] Audit and standardize AGENTS.md execution contracts for Jules",
+      "ts": "2026-07-23T01:28:19Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/42"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 41,
+      "repo": "GuitarAlchemist/.github",
+      "title": "[Epic][AIW] Modernize cloud coding-agent lanes and orchestration model",
+      "ts": "2026-07-23T01:28:06Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/41"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 594,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971654902) for more details.",
+      "title": "[Decision] Produce persistence architecture ADR from Gel, MongoDB, and DuckDB spikes",
+      "ts": "2026-07-23T01:23:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/594#issuecomment-5053303037"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 593,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971647997) for more details.",
+      "title": "[Spike] Evaluate DuckDB + Parquet for analytical and generated music datasets",
+      "ts": "2026-07-23T01:23:40Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/593#issuecomment-5053302411"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 592,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971638118) for more details.",
+      "title": "[Spike] Prototype Gel for the canonical music-domain graph",
+      "ts": "2026-07-23T01:23:14Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/592#issuecomment-5053300290"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 594,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971654902) for more details.",
+      "title": "[Decision] Produce persistence architecture ADR from Gel, MongoDB, and DuckDB spikes",
+      "ts": "2026-07-23T01:23:09Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/594#issuecomment-5053299903"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 591,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971629805) for more details.",
+      "title": "[Spike] Inventory current MongoDB usage, coupling, and migration surface",
+      "ts": "2026-07-23T01:23:08Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/591#issuecomment-5053299820"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 594,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[Decision] Produce persistence architecture ADR from Gel, MongoDB, and DuckDB spikes",
+      "ts": "2026-07-23T01:23:02Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/594"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 593,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971647997) for more details.",
+      "title": "[Spike] Evaluate DuckDB + Parquet for analytical and generated music datasets",
+      "ts": "2026-07-23T01:23:01Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/593#issuecomment-5053299159"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 590,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 I'm sorry @spareilleux, but I was unable to process your request. Please [see the logs](https://github.com/GuitarAlchemist/ga/actions/runs/29971622638) for more details.",
+      "title": "[Epic] Evaluate Gel + DuckDB persistence architecture for Guitar Alchemist",
+      "ts": "2026-07-23T01:22:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/590#issuecomment-5053298495"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 82,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Research grounding for this epic from the constrained-decoding notebook (*Probabilistic Grammars and Constrained LLM Reasoning*, reviewed 2026-07-22 in the Demerzel session):\n\n- The typed, grammar-bac",
+      "title": "[Epic][TARS-V2][P0] Rebuild Closure Factory as typed, grammar-backed capability compiler",
+      "ts": "2026-07-23T01:00:02Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/82#issuecomment-5053181393"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 821,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "🤖 **Demerzel Governance Notice**\n\nThis issue has been added to the [Demerzel Governance](https://github.com/orgs/GuitarAlchemist/projects/2) project board.\n\n**Governance checklist:**\n- [ ] Reviewed ag",
+      "title": "Hexavalent symbol robustness: pair T/P/U/D/F/C with full names on all LLM-facing surfaces",
+      "ts": "2026-07-23T00:59:53Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/821#issuecomment-5053180699"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 820,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "🤖 **Demerzel Governance Notice**\n\nThis issue has been added to the [Demerzel Governance](https://github.com/orgs/GuitarAlchemist/projects/2) project board.\n\n**Governance checklist:**\n- [ ] Reviewed ag",
+      "title": "IXQL executor: replace LLM-as-executor with grammar-constrained emission + minimal deterministic executor",
+      "ts": "2026-07-23T00:59:51Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/820#issuecomment-5053180521"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 821,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "Hexavalent symbol robustness: pair T/P/U/D/F/C with full names on all LLM-facing surfaces",
+      "ts": "2026-07-23T00:59:46Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/821"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "needs-triage",
+      "number": 821,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "Hexavalent symbol robustness: pair T/P/U/D/F/C with full names on all LLM-facing surfaces",
+      "ts": "2026-07-23T00:59:46Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/821"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "needs-triage",
+      "number": 820,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "IXQL executor: replace LLM-as-executor with grammar-constrained emission + minimal deterministic executor",
+      "ts": "2026-07-23T00:59:45Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/820"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 820,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "IXQL executor: replace LLM-as-executor with grammar-constrained emission + minimal deterministic executor",
+      "ts": "2026-07-23T00:59:44Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/820"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 38,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "Tracer status (Codex, 2026-07-23):\n\n- Organization classifier/reusable workflow merged in #39 (`0a36fe8`); 5/5 deterministic diagnostics tests green.\n- First GA/IX consumers exposed a reusable-workflo",
+      "title": "ci: make Claude review failures diagnosable and non-ambiguous",
+      "ts": "2026-07-23T00:27:28Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/38#issuecomment-5053004467"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 255,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.70`\n\n## PR Review Summary\n\nFail: risk score 0.70; human review is required.\n\nAction: Do not merge unti",
+      "title": "ci: adopt reusable Claude review diagnostics",
+      "ts": "2026-07-23T00:22:02Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/255#issuecomment-5052971960"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 255,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-23T00:15:05Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/255#pullrequestreview-4759827089"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 40,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "Human review completed. Both the methodology guard and the five-case diagnostics test are green. Live GA/IX logs independently confirm the missing classifier path; the fix checks out only the pinned s",
+      "title": "fix(ci): checkout reusable review classifier",
+      "ts": "2026-07-23T00:14:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/40#issuecomment-5052931945"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 40,
+      "repo": "GuitarAlchemist/.github",
+      "title": null,
+      "ts": "2026-07-23T00:14:31Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/.github/pull/40"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 255,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-07-23T00:12:38Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/255"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 205,
+      "repo": "GuitarAlchemist/tars",
+      "title": "Demerzel submodule is 38 commits behind",
+      "ts": "2026-07-23T00:11:07Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/205"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 208,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Human review completed. The hosted .NET build, restore, and tests are green; Methodology Guard, QA Dispatch, and Claude review are green. Agent Blackbox failed only at protected-workflow enforcement. ",
+      "title": "fix(ci): avoid submodule updater SIGPIPE",
+      "ts": "2026-07-23T00:10:32Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/208#issuecomment-5052906545"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 254,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "Human review completed. CI, Stable Surface Guard, QA Dispatch, and Claude review are green. Agent Blackbox generated all artifacts successfully and failed only at protected-workflow enforcement. The o",
+      "title": "fix(ci): avoid submodule updater SIGPIPE",
+      "ts": "2026-07-23T00:10:29Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/254#issuecomment-5052906203"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 254,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.70`\n\n## PR Review Summary\n\nFail: risk score 0.70; human review is required.\n\nAction: Do not merge unti",
+      "title": "fix(ci): avoid submodule updater SIGPIPE",
+      "ts": "2026-07-22T23:52:24Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/254#issuecomment-5052801404"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 208,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.70`\n\n## PR Review Summary\n\nFail: risk score 0.70; human review is required.\n\nAction: Do not merge unti",
+      "title": "fix(ci): avoid submodule updater SIGPIPE",
+      "ts": "2026-07-22T23:46:16Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/208#issuecomment-5052768936"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 208,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 70",
+      "title": "fix(ci): avoid submodule updater SIGPIPE",
+      "ts": "2026-07-22T23:43:27Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/208#issuecomment-5052753541"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 208,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-22T23:43:23Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/208"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 254,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-07-22T23:43:22Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/254"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 207,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-07-22T23:42:18Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/207#pullrequestreview-4759704431"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 207,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">❌</span> Deploy Preview for *effervescent-tarsier-eb227e* failed.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 5d3b",
+      "title": "feat: round-1 research program + round-3 self-improve seeds closed (backlog empty)",
+      "ts": "2026-07-22T23:38:26Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/207#issuecomment-5052726953"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 207,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-07-22T23:38:17Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/207"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 197,
+      "repo": "GuitarAlchemist/tars",
+      "title": "🔴 CI health: build is cancelled on main",
+      "ts": "2026-07-22T23:38:14Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/197"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 815,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "Human-gate review completed for the protected telemetry/configuration change.\n\nEvidence:\n- PR is mergeable.\n- Governance Validate and Cross-Model Code Review succeeded.\n- The Demerzel verification com",
+      "title": "feat(harness): add fleet compaction telemetry",
+      "ts": "2026-07-22T23:37:36Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/815#issuecomment-5052722524"
+    }
+  ]
+}
