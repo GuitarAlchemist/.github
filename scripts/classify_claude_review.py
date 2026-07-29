@@ -20,11 +20,47 @@ ERROR_CLASSES = (
 
 
 def load_records(path: Path) -> list[dict[str, Any]]:
+    """Read the action's execution log, whatever shape it arrived in.
+
+    claude-code-action writes a pretty-printed JSON *array*, so parsing line by
+    line raised on the bare `[` of line 1 and took the whole review job down with
+    it — `main()` otherwise always returns 0, so this was the only way the job
+    could fail. JSONL is still accepted because streaming and older versions emit
+    it, and an unparseable log degrades to no records instead of raising: this
+    script exists to classify failures, so crashing on a malformed log destroys
+    the very diagnostic it is here to produce (`classify` maps no records to
+    `missing-result` / `action-runtime-failure`, which is the honest answer).
+    """
+    try:
+        text = path.read_text(encoding="utf-8").strip()
+    except OSError:
+        return []
+
+    if not text:
+        return []
+
+    # Whole-document parse first: the array case, and a lone object.
+    try:
+        value = json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    else:
+        if isinstance(value, list):
+            return [item for item in value if isinstance(item, dict)]
+        if isinstance(value, dict):
+            return [value]
+        return []
+
+    # Fall back to JSONL, skipping any line that will not parse rather than
+    # discarding the records that already did.
     records: list[dict[str, Any]] = []
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in text.splitlines():
         if not line.strip():
             continue
-        value = json.loads(line)
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError:
+            continue
         if isinstance(value, dict):
             records.append(value)
     return records
