@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: GuitarAlchemist/.github
-          ref: 0a36fe841e8100c79c03af4237ab0aeadfb50332
+          ref: b1a5dfa42ce5334cbd9fef9676b38216ee571e5b
           path: .claude-review-harness
           sparse-checkout: scripts/classify_claude_review.py
           sparse-checkout-cone-mode: false
