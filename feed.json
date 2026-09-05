@@ -1,0 +1,1027 @@
+{
+  "generated_at": "2026-09-05T20:54:37Z",
+  "count": 100,
+  "events": [
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:50 PM checkpoint — Codex / GPT-6 Astra\n\n- ✅ **The visible execution wiring is pushed and validated:** remote PR HEAD `85a5669b472c4dccaf65fec99607b9dd01506ffe`, **8/8 GitHub checks SUCCESS** on t",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:50:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554696345"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Restricted visible execution pushed — Codex / GPT-6 Astra\n\n- ✅ **Push and GitHub readback confirmed at 4:47 PM EDT / 20:47 UTC:** PR HEAD is **`85a5669b472c4dccaf65fec99607b9dd01506ffe`**. Behavior",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:48:31Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554685127"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:45 PM checkpoint — Codex / GPT-6 Astra\n\n- ✅ **New local candidate committed:** `85a5669b472c4dccaf65fec99607b9dd01506ffe` (behavior `f41c76533b0a14e0da8ac46128762d619ba54a52`). This is the visibl",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:44:59Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554665004"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:40 PM checkpoint — Codex / GPT-6 Astra\n\n- ✅ **Actual new adapter completed:** September 5, **4:37:49–4:38:00 PM EDT / 20:37:49–20:38:00 UTC** (11 seconds). Its interactive Claude worker read the ",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:40:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554641214"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:35 PM checkpoint (late) — Codex / GPT-6 Astra\n\n- ✅ **New local wiring:** the operator CLI now accepts `--execution-profile claude-visible-restricted`; worker, independent reviewer and repair reus",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:36:59Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554621497"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:30 PM checkpoint (late) — Codex / GPT-6 Astra\n\n- ⚠️ **Reporting failure:** the September 5, 4:30 PM EDT / 20:30 UTC report was missed while I implemented the adapter. Codex owns this delay; local",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:32:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554597349"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Late report and rendered-Gantt QA — Codex / GPT-6 Astra\n\n- ⚠️ **Missed reports:** September 5, **4:15 PM and 4:20 PM EDT / 20:15 and 20:20 UTC** were not published on time. Owner: this Codex coordi",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:22:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554543055"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/gaia",
+      "ts": "2026-09-05T20:22:14Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/gaia/actions/runs/33989875234",
+      "workflow": "Hosted Draft intake"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:10 PM checkpoint — September 5, 2026\nOwner: **Codex / GPT-6 Astra**\n\n- ✅ **Push proven:** [`0674e35`](https://github.com/GuitarAlchemist/gaia/commit/0674e35b1a4f0b6e74f28ffa5049861e4bd0f596) is t",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:10:26Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554473748"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Push confirmed — September 5, 4:08 PM EDT / 20:08 UTC\nOwner: **Codex / GPT-6 Astra**\n\n- ✅ **Runtime pushed and read back:** PR #121 now points to [`0674e35`](https://github.com/GuitarAlchemist/gaia",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:08:31Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554463201"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:05 PM checkpoint — September 5, 2026\nOwner: **Codex / GPT-6 Astra**\n\n- ✅ **Code validation unchanged and complete:** local `0674e35`, full tests twice (1,946 pass / 0 fail / 1 skip each), archite",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:04:45Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554442731"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 4:00 PM checkpoint — September 5, 2026\nOwner: **Codex / GPT-6 Astra** · Toronto EDT / UTC\n\n- ✅ **Implementation candidate:** `0674e35b1a4f0b6e74f28ffa5049861e4bd0f596`, local only.\n- ✅ **Full tests",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T20:00:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554416005"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-09-05T19:58:15Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/33988671801",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Progress report — September 5, 3:55 PM EDT / 19:55 UTC\nOwner: **Codex / GPT-6 Astra**\n\n- ✅ **Candidate pinned:** local `0674e35b1a4f0b6e74f28ffa5049861e4bd0f596`; architecture attestation now names",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:55:49Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554393454"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Progress report — September 5, 3:52 PM EDT / 19:52 UTC\nOwner: **Codex / GPT-6 Astra**\n\n- ✅ **Local repair:** `eb03e72729eea02b7f6bf1ad2db215fd8b255adb` accepts the real producer's validated diagnos",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:52:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554375884"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:45 PM EDT / 19:45 UTC\n\n**Codex / GPT-6 Astra — independent review found one repairable compatibility blocker.**\n\n- ✅ **Standards:** Claude Sonnet 5 **APPROVE**, limited ",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:45:50Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554339098"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:40 PM EDT / 19:40 UTC\n\n**Codex / GPT-6 Astra — candidate tested; two independent reviews running.**\n\n- ✅ **Final candidate `91b7493778c744a476a08a66ff6b2b4a9b78fa34`:** ",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:40:26Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554309772"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:35 PM EDT / 19:35 UTC\n\n**Codex / GPT-6 Astra — first runtime candidate committed locally.**\n\n- ✅ **Behavior commit:** `5b72253cd71d536b4ada4fdc6bddff1a201f03bb` requires",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:35:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554284266"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:30 PM EDT / 19:30 UTC\n\n**Codex / GPT-6 Astra — local validation advanced; not shipped.**\n\n- ✅ **Second independent full run passed:** `npm test` again reports **1,945 pa",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:30:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554255272"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:25 PM EDT / 19:25 UTC (late)\n\n**Owner: Codex / GPT-6 Astra.** The 3:25 PM report deadline was missed; publication time on this comment is the actual reporting evidence. ",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:29:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554249896"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:20 PM EDT / 19:20 UTC\n\n**Codex / GPT-6 Astra — accountable coordinator. Report delayed by the terminal incident.**\n\n- ✅ **New correction, independently executed:** Codex",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:21:21Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554202782"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:15 PM EDT / 19:15 UTC\n\n**Codex / GPT-6 Astra — accountable coordinator**\n\n- ✅ **New writer proof:** the Draft-admission adapter and operator CLI wiring now exist locally",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:15:07Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554168934"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:10 PM EDT / 19:10 UTC\n\n**Codex / GPT-6 Astra — accountable coordinator**\n\n- 🟠 **Verdict: local implementation progresses; full validation is NOT green.** No runtime push",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:09:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554140608"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:05 PM EDT / 19:05 UTC\n\n**Codex / GPT-6 Astra — accountable coordinator**\n\n- 🔄 **Status: progressing locally, not delivered.** Runtime writer resumed; the production Draf",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:05:45Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554116903"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Checkpoint — September 5, 3:00 PM EDT / 19:00 UTC\n\n**Codex / GPT-6 Astra — accountable coordinator**\n\n- ✅ **Independently verified:** Codex reran the portfolio, execution and operator suites: **66/",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T19:00:10Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554083540"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Progress report — September 5, 2026, 2:57 PM EDT (Toronto) / 18:57 UTC\n\n**Reporter: Codex / GPT-6 Astra. Accountable owner: Codex.**\n\n**TL;DR:** Claude is now changing runtime code, not just planni",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T18:57:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554068359"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 🟠 2:50 PM checkpoint — Codex / GPT-6 Astra\n\n**Observed September 5, 2026, 2:50:27 PM EDT (Toronto) / 18:50:27 UTC.**\n\n- **Verdict:** execution of the next investigation has resumed; the pump remain",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T18:51:16Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5554031748"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 🟠 2:45 PM checkpoint — Codex / GPT-6 Astra\n\n**Observed September 5, 2026, 2:44 PM EDT (Toronto) / 18:44 UTC. Posted for the 2:45 PM / 18:45 UTC checkpoint.**\n\n- **Verdict:** useful local test progr",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T18:45:19Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5553994813"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 121,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## 🟠 Execution recovery — Codex / GPT-6 Astra\n\n**September 5, 2026, 2:39 PM EDT (Toronto) / 18:39 UTC.**\n\n- ✅ Diagnosed failed wmux delegation: required Read operations were denied under dontAsk; wrap",
+      "title": "fix: restore bounded pump execution (R0 canary)",
+      "ts": "2026-09-05T18:39:36Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/121#issuecomment-5553960887"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "retrospective",
+      "number": 40,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: supervise the engineering pump as a reconciler",
+      "ts": "2026-09-05T18:17:03Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/40"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 40,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "## Pump problem register — September 5, 2026\n\nOrigin: Codex · GPT-6 Astra · Recorded around 2:15 PM EDT / 18:15 UTC.\n\n**Purpose:** retain the failures encountered, their evidence level, ownership and ",
+      "title": "feat: supervise the engineering pump as a reconciler",
+      "ts": "2026-09-05T18:16:40Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/40#issuecomment-5553827978"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "priority:critical",
+      "number": 40,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: supervise the engineering pump as a reconciler",
+      "ts": "2026-09-05T18:14:55Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/40"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-09-05T17:02:24Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/33979689237",
+      "workflow": "ML-Governance Loop Schedule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-09-05T16:06:42Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/33976807141",
+      "workflow": "Ecosystem Freshness"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-09-05T15:09:27Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/33973145404",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-09-05T14:39:39Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/33972452211",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/gaia",
+      "ts": "2026-09-05T13:46:52Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/gaia/actions/runs/33969772471",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-09-05T11:39:37Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/33963091001",
+      "workflow": "Architecture Refinement"
+    },
+    {
+      "action": "opened",
+      "actor": "claude[bot]",
+      "label": null,
+      "number": 251,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-plannerprompts-decayed-fallback: tars plan's prompt-load fallback is a dead placeholder, silently reachable from CWD",
+      "ts": "2026-09-05T11:39:09Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/251"
+    },
+    {
+      "action": "labeled",
+      "actor": "claude[bot]",
+      "label": "needs-triage",
+      "number": 251,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-plannerprompts-decayed-fallback: tars plan's prompt-load fallback is a dead placeholder, silently reachable from CWD",
+      "ts": "2026-09-05T11:39:09Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/251"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-09-05T10:00:45Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/33959477292",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-09-05T09:08:38Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/33957110091",
+      "workflow": "GA Nightly Quality"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-09-05T03:07:28Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/33940962090",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/gaia issue #117 adds durable conflict-claim slice\n\n- **Observed at:** 2026-09-05T01:29:12Z\n- **Repository / subject:** GuitarAlchemist/gaia issue #117 (`fea",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T02:30:12Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5548750957"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/gaia PR #97 local conflict recovery is review-blocked\n\n- **Observed at:** 2026-09-05T01:50:51Z\n- **Repository / subject:** GuitarAlchemist/gaia PR #97 (`fea",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T02:30:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5548750103"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/gaia PR #109 merged; issue #98 closed\n\n- **Observed at:** 2026-09-05T02:00:41Z\n- **Repository / subject:** GuitarAlchemist/gaia PR #109 (`test: remove the r",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T02:29:55Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5548749539"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/gaia PR #116 ready with unresolved exact-head review debt\n\n- **Observed at:** 2026-09-05T01:06:45Z\n- **Repository / subject:** GuitarAlchemist/gaia PR #116 ",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T01:08:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5548302740"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga scheduler cadence strengthening\n\n- **Observed at:** 2026-09-05T00:56:42Z\n- **Repository / subject:** GuitarAlchemist/ga Ecosystem Health and Presence Sna",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T01:08:40Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5548302017"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/Demerzel repository-level discussion-comment storm has ceased for observation: the latest `discussion_comment` pair remains at 22:03:41Z (Responder #3864 / `33923874678` SUCCESS; Lifec",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547915953"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia PR #116 (`docs: checkpoint Gaia Now control surface`) is a new OPEN+DRAFT read-only observability slice. Current exact head `7b47b955bb84c28ee43071759539f0a598c0681e` keeps the co",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:33Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547915229"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia PR #114 and PR #115 both merged before their Codex findings landed, leaving two on-main P2 audit/provenance defects. PR #114’s post-merge review shows an unchanged `EFFECT_AMBIGUO",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:27Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547914500"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia current-main CI state recovered on the advanced main sequence: current main `8b9688dec8d1d9612344977705ec8d454fbf3224` has push CI #258 / `33930081815` SUCCESS with Ubuntu/Windows",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:19Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547913206"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia PR #112 merged at 22:22:29Z on final head `4b7b49a509e295e1bdd12a7239501b8f4e1fa141` after targeted review-fix commit `15fcacfc6c6d5a1fcd7094c33fd75b8fcaf374c3`. The prior P1 + tw",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:13Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547912315"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/ga scheduler: Ecosystem Health #2208 / `33928563717` completed SUCCESS at 23:12:19Z on unchanged non-semantic head `3475e12d95f18c27347ec59b63f7ef482684e6f1`, ~1h42m25s after #2207. Th",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-05T00:09:08Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5547911252"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "codex/gaia-now-checkpoint-r0",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/gaia",
+      "ts": "2026-09-05T00:06:35Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/gaia/actions/runs/33931701235",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "codex/gaia-now-checkpoint-r0",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/gaia",
+      "ts": "2026-09-04T23:28:10Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/gaia/actions/runs/33929517917",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "codex/pump-manual-recovery-trigger-r0",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/gaia",
+      "ts": "2026-09-04T23:27:30Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/gaia/actions/runs/33929452503",
+      "workflow": "CI"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-09-04T22:03:38Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/33923850581",
+      "workflow": "Demerzel Discussion & Issue Lifecycle"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-09-04T22:03:19Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/33923826492",
+      "workflow": "Demerzel Discussion & Issue Lifecycle"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-09-04T22:03:03Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/33923804994",
+      "workflow": "Demerzel Discussion & Issue Lifecycle"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/gaia PR #112\n\n- **Observed at:** 2026-09-04T21:36:00Z\n- **Repository / subject:** GuitarAlchemist/gaia PR #112 (`feat: model drain flow with a bounded Petri",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T21:38:13Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5546741706"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga scheduler cadence split\n\n- **Observed at:** 2026-09-04T21:36:00Z\n- **Repository / subject:** GuitarAlchemist/ga Ecosystem Health and Presence Snapshot sc",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T21:37:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5546739615"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/ga scheduler: Ecosystem Health #2206 / workflow-run `33910044960` completed `SUCCESS` at 19:14:03Z, ~2h22m41s after #2205 — the first clean in-envelope follow-up after the recent repea",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T20:18:08Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5545983666"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga Presence recovery\n\n- **Observed at:** 2026-09-04T18:30:00Z\n- **Repository / subject:** GuitarAlchemist/ga Presence Snapshot scheduled workflow\n- **Observ",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T18:31:09Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5544867377"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/Demerzel discussion responder recurrence: `discussion_comment` activity restarted at 17:08:02Z and expanded to 334 workflow runs by 17:57:16Z. Demerzel Discussion Responder run #2837 /",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T17:58:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5544482946"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia roadmap extension: GuitarAlchemist/gaia issue #110 opened `needs-triage` to govern hexagonal boundaries through independently testable vertical-slice issues with machine-verifiabl",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T17:57:55Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5544480217"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/ga scheduler update: Ecosystem Health #2205 / `33897396631` naturally resumed `SUCCESS` at 16:51:22Z after ~3h41m51s from #2204, after crossing >3h stale at ~16:09:31Z; reclassify Ecos",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T17:57:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5544478839"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "[2026-09-04 15:54Z] GuitarAlchemist/gaia PR #99: process-truth violation — final head `b046628` had exact-head CI #243 red on Windows Node20 and no native reviews, yet moved Draft→ready at 15:27:26Z a",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T15:58:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5543111988"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga Presence recovery\n\n- **Observed at:** 2026-09-04T14:25:34Z\n- **Repository / subject:** GuitarAlchemist/ga Presence Snapshot run #782 / workflow-run `3388",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T14:48:42Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5542183506"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "Observed at 2026-09-04T13:23:02Z — Repository / subject: GuitarAlchemist/ga scheduler cadence. Observation: Presence Snapshot #781 / workflow-run `33859881074` crossed its renewed >3h stale threshold ",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T13:24:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5541076784"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/ga Ecosystem Health has crossed the renewed >3h stale threshold with no natural follow-up: latest remains run #2203 / workflow-run `33855944448`, `SUCCESS` completed 2026-09-04T08:57:5",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T12:31:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5540462669"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga Presence natural recovery\n\n- **Observed at:** 2026-09-04T09:45:35Z\n- **Repository / subject:** GuitarAlchemist/ga Presence Snapshot scheduled workflow\n- ",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T10:37:47Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5539244567"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/ga Ecosystem Health naturally resumed after the renewed stale transition: run #2203 / `33855944448` completed `SUCCESS` at 2026-09-04T08:57:59Z on unchanged routine head `b98459eaa9b52",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T09:39:34Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5538617337"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "### Automated observation — GuitarAlchemist/ga renewed scheduler staleness\n\n- **Observed at:** 2026-09-04T07:49:02Z\n- **Repository / subject:** GuitarAlchemist/ga Ecosystem Health and Presence Snapsho",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T07:50:31Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5537429422"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia opened a coordinated architecture/execution roadmap batch at ~05:50Z: GuitarAlchemist/gaia issue #100 (drain machine v2 as pure GRAFCET/Petri interpreter with parallel review axes",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T06:38:41Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5536723585"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia issue #98 now has a bounded corrective implementation in GuitarAlchemist/gaia PR #109, OPEN+DRAFT at exact head `a401762ce4608ea66c646f5efa4ec06687a00c68` on current main `ba1034c",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T06:38:30Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5536721710"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 73,
+      "repo": "GuitarAlchemist/.github",
+      "snippet": "GuitarAlchemist/gaia PR #99 OPEN+DRAFT exposes/fixes current-main B37: architecture verification depended on a pre-squash commit ref that a fresh single-branch main clone may not possess, causing `REP",
+      "title": "Automated Test Observations",
+      "ts": "2026-09-04T05:42:57Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/.github/issues/73#issuecomment-5536250877"
+    },
+    {
+      "action": "labeled",
+      "actor": "claude[bot]",
+      "label": "needs-triage",
+      "number": 250,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-wot-executor-memory-node-dead-stub: WoT DSL's Memory/Sync node is a fully wired-through dead stub",
+      "ts": "2026-09-02T12:23:05Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/250"
+    },
+    {
+      "action": "opened",
+      "actor": "claude[bot]",
+      "label": null,
+      "number": 250,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-wot-executor-memory-node-dead-stub: WoT DSL's Memory/Sync node is a fully wired-through dead stub",
+      "ts": "2026-09-02T12:23:04Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/250"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 294,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: add deterministic DuckDB Pareto frontier pipeline",
+      "ts": "2026-09-02T01:38:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/294"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 294,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: add deterministic DuckDB Pareto frontier pipeline",
+      "ts": "2026-09-02T01:38:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/294"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 294,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: add deterministic DuckDB Pareto frontier pipeline",
+      "ts": "2026-09-02T01:38:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/294"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 293,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "## Gaia hardware/security advisory\n\nThe current shared workstation exposes an RTX 5080 with 16 GB VRAM and 64 GB RAM. Before IX starts the tracer, re-groom the model choice against current first-party",
+      "title": "feat: evaluate offline Agentic SQL with Qwen and DuckDB",
+      "ts": "2026-09-02T01:31:23Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/293#issuecomment-5502984134"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 293,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: evaluate offline Agentic SQL with Qwen and DuckDB",
+      "ts": "2026-09-01T05:51:39Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/293"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 293,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: evaluate offline Agentic SQL with Qwen and DuckDB",
+      "ts": "2026-09-01T03:42:07Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/293"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 293,
+      "repo": "GuitarAlchemist/ix",
+      "title": "feat: evaluate offline Agentic SQL with Qwen and DuckDB",
+      "ts": "2026-09-01T03:09:26Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/293"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 292,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "CI note: both stable jobs pass. The two nightly jobs fail before reaching this documentation-only diff on the same pre-existing nightly-only Clippy diagnostic in `crates/ix-math/src/sedenion.rs:249` (",
+      "title": "docs: reconcile delivered IX plan status",
+      "ts": "2026-08-29T17:03:12Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/292#issuecomment-5463710619"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 292,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "docs: reconcile delivered IX plan status",
+      "ts": "2026-08-29T16:57:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/292#issuecomment-5463683878"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 292,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-08-29T16:48:47Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/292"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-human",
+      "number": 288,
+      "repo": "GuitarAlchemist/ix",
+      "title": "[Task][Grammar][P2] Add shared EBNF dialect conformance fixtures for harness contracts",
+      "ts": "2026-08-29T16:02:34Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/288"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-human",
+      "number": 244,
+      "repo": "GuitarAlchemist/ix",
+      "title": "[Task][IX][P2] maintain-gate dashboard stays DEGRADED after #238 until the frozen snapshot is reconciled",
+      "ts": "2026-08-29T16:02:32Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/244"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 206,
+      "repo": "GuitarAlchemist/ix",
+      "title": "[Story][IX][P1] Build agentic SDLC observability use case over issues, PRs, CI, and traces",
+      "ts": "2026-08-29T16:02:30Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/206"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 202,
+      "repo": "GuitarAlchemist/ix",
+      "title": "[Story][IX][P1] Build TARS V1 advanced-math salvage gap matrix for IX",
+      "ts": "2026-08-29T16:02:29Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/202"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 191,
+      "repo": "GuitarAlchemist/ix",
+      "title": "[Story][IX][P1] Evaluate DuckDB+IX for local analytics, traces, vectors, and corpus mining",
+      "ts": "2026-08-29T16:02:27Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/191"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "ready-for-agent",
+      "number": 185,
+      "repo": "GuitarAlchemist/ix",
+      "title": "Hardening: reduce surface entropy with generated registry checks and a single `ix doctor` gate",
+      "ts": "2026-08-29T16:02:25Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/185"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 291,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-08-29T14:26:10Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/291#pullrequestreview-5058332486"
+    },
+    {
+      "action": "opened",
+      "actor": "claude[bot]",
+      "label": null,
+      "number": 249,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-symbolicreflector-naming-collision: two SymbolicReflector adapters share a name, one silently ignores the interface's core parameter",
+      "ts": "2026-08-25T08:13:24Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/249"
+    },
+    {
+      "action": "labeled",
+      "actor": "claude[bot]",
+      "label": "needs-triage",
+      "number": 249,
+      "repo": "GuitarAlchemist/tars",
+      "title": "[arch-refinement] cortex-symbolicreflector-naming-collision: two SymbolicReflector adapters share a name, one silently ignores the interface's core parameter",
+      "ts": "2026-08-25T08:13:24Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/tars/issues/249"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 400,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": "scripts/: split compliance_report.run_checks() into per-check modules",
+      "ts": "2026-08-24T00:26:18Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/issues/400"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1016,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-08-24T00:25:23Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1016#pullrequestreview-5003784221"
+    }
+  ]
+}
