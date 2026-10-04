@@ -1,0 +1,966 @@
+{
+  "generated_at": "2026-10-04T03:57:16Z",
+  "count": 95,
+  "events": [
+    {
+      "actor": "github-actions[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "fix(chatbot): stop ungrounded chat prompts from inviting invented frets",
+      "ts": "2026-10-04T03:45:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#issuecomment-5976268612"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T03:45:40Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#pullrequestreview-5404151686"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-04T03:45:38Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/37174949729",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ 88c0a58589598deee552ef191934e393e33e48c2\n\nNo findings. I read the diff and traced the stdin write, timeout, cancellation and cleanup paths, and found no defect. I did not bu",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T03:45:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5976266286"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-04T03:45:10Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/37174933696",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T03:44:49Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5404147331"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T03:44:47Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5404147241"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T03:44:46Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5404147050"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-04T03:42:36Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/37174629647",
+      "workflow": "Playwright Dashboard E2E"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-04T03:42:04Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/37174786666",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- test-plan -->\n## Proposed test plan (heuristic)\n\n# Test plan — PR #807 (8c034168)\n\n**Generated:** 2026-10-04T03:41:44Z\n**Author:** @spareilleux\n**Scope:** 6 file(s) changed,6 files changed, 31 in",
+      "title": "fix(chatbot): stop ungrounded chat prompts from inviting invented frets",
+      "ts": "2026-10-04T03:41:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#issuecomment-5976243276"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- pr-token-spend -->\n**Agent token spend (estimate)**\n\n| Agent | Provider | Commits | Diff lines | Est. tokens | Est. cost |\n|---|---|---:|---:|---:|---:|\n| `claude` | anthropic | 1 | 38 | ~3.0K | ",
+      "title": "fix(chatbot): stop ungrounded chat prompts from inviting invented frets",
+      "ts": "2026-10-04T03:41:45Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#issuecomment-5976243144"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "fix(chatbot): stop ungrounded chat prompts from inviting invented frets",
+      "ts": "2026-10-04T03:41:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#issuecomment-5976242171"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/37174780476) for more details.",
+      "title": "fix(chatbot): stop ungrounded chat prompts from inviting invented frets",
+      "ts": "2026-10-04T03:41:32Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807#issuecomment-5976241901"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 807,
+      "repo": "GuitarAlchemist/ga",
+      "title": null,
+      "ts": "2026-10-04T03:41:20Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/807"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-04T03:41:19Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/37174636332",
+      "workflow": "Quality Snapshot"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-04T03:38:02Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/37174611885",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T03:31:02Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5404086471"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ f672ef464fa8451f3d393a3d90bffe4ca288bcfb\n\nNo findings. I read the diff and checked the `claude` flags against the installed CLI's `--help`: `--safe-mode`, `--setting-sources",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T03:27:36Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5976158408"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-04T03:27:29Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/37174100755",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-04T02:13:57Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/37170391800",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Re the [P3] in the cross-review vote: fixed in f672ef46. The stdin write runs alongside the timed wait and its error is kept; when claude exits non-zero, the call reports `exited with code N` and stde",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T02:03:33Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975616923"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T02:03:31Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5403853466"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T02:03:30Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5403853421"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T01:45:59Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#pullrequestreview-5403807430"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T01:45:39Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975504126"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- cross-review -->\n### Cross-review @ `88c0a58`\n\n**Verdict: clean.** The strictest counted vote wins; advisory votes are shown but not counted. A reviewer with no vote on this commit is not counted",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T01:42:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975486523"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: to-fix @ d718fed5e59f9f0659bd45bd7f9d45f7a9058d6c\n\n- [P3] v2/src/Tars.Llm/ClaudeCodeService.fs:~125 - `proc.StandardInput.Write` runs outside any guard for a child that exits early.",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T01:42:41Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975485346"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T01:42:05Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975481395"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 88",
+      "title": "feat: run evolve on Claude Code with --model claude:<model>",
+      "ts": "2026-10-04T01:41:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379#issuecomment-5975480655"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 379,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-10-04T01:41:53Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/379"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "fix/theory-routing-gaps",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-04T01:40:41Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/37167564255",
+      "workflow": "CI/CD Pipeline"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1184,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-04T01:32:19Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1184#pullrequestreview-5403773940"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1184,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(streeling): MUS-011 modes and modal families (EN/FR/ES)",
+      "ts": "2026-10-04T01:28:40Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1184#issuecomment-5975396608"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1184,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(streeling): MUS-011 modes and modal families (EN/FR/ES)",
+      "ts": "2026-10-04T01:28:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1184#issuecomment-5975396319"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1184,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-04T01:28:28Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1184"
+    },
+    {
+      "action": "labeled",
+      "actor": "github-actions[bot]",
+      "label": "needs-triage",
+      "number": 806,
+      "repo": "GuitarAlchemist/ga",
+      "title": "SetTheoryEquivalenceSkill and the Grothendieck parser: relation never read in 'equivalent under transposition' (2016/4032 wrong verdicts), '0-1-4' read as {4}, 25 of 50 documented parser forms fail, usual chord symbols rejected",
+      "ts": "2026-10-04T01:19:07Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/806"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 806,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @spareilleux, I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/37167613116) for more details.",
+      "title": "SetTheoryEquivalenceSkill and the Grothendieck parser: relation never read in 'equivalent under transposition' (2016/4032 wrong verdicts), '0-1-4' read as {4}, 25 of 50 documented parser forms fail, usual chord symbols rejected",
+      "ts": "2026-10-04T01:18:41Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/806#issuecomment-5975330451"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 806,
+      "repo": "GuitarAlchemist/ga",
+      "title": "SetTheoryEquivalenceSkill and the Grothendieck parser: relation never read in 'equivalent under transposition' (2016/4032 wrong verdicts), '0-1-4' read as {4}, 25 of 50 documented parser forms fail, usual chord symbols rejected",
+      "ts": "2026-10-04T01:18:32Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/806"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 805,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Backend Test Results\n   11 files     11 suites   5m 48s ⏱️\n4 465 tests 4 449 ✅ 16 💤 0 ❌\n4 539 runs  4 515 ✅ 24 💤 0 ❌\n\nResults for commit d776cb35.\n\n[test-results]:data:application/gzip;base64,H4sIA",
+      "title": "feat(chatbot): ground functional-harmony concept answers in a verified skill",
+      "ts": "2026-10-03T21:19:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/805#issuecomment-5973593243"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 803,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Backend Test Results\n   11 files     11 suites   6m 41s ⏱️\n4 724 tests 4 708 ✅ 16 💤 0 ❌\n5 006 runs  4 983 ✅ 23 💤 0 ❌\n\nResults for commit 2189dfe9.\n\n[test-results]:data:application/gzip;base64,H4sIA",
+      "title": "fix(chat): answer key-signature and CAGED-shape questions directly",
+      "ts": "2026-10-03T20:59:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/803#issuecomment-5973432236"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 805,
+      "repo": "GuitarAlchemist/ga",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-03T20:59:34Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/805#pullrequestreview-5402714906"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 804,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Backend Test Results\n   11 files     11 suites   5m 49s ⏱️\n4 468 tests 4 452 ✅ 16 💤 0 ❌\n4 540 runs  4 517 ✅ 23 💤 0 ❌\n\nResults for commit f6fcf577.\n\n[test-results]:data:application/gzip;base64,H4sIA",
+      "title": "feat(theory-qa): music-theory QA agent; keep eval traffic out of the Jev budget",
+      "ts": "2026-10-03T20:59:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/804#issuecomment-5973427830"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 805,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(chatbot): ground functional-harmony concept answers in a verified skill",
+      "ts": "2026-10-03T20:59:19Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/805#issuecomment-5973427705"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 805,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "<!-- pr-token-spend -->\n**Agent token spend (estimate)**\n\n| Agent | Provider | Commits | Diff lines | Est. tokens | Est. cost |\n|---|---|---:|---:|---:|---:|\n| `claude` | anthropic | 2 | 409 | ~19.4K ",
+      "title": "feat(chatbot): ground functional-harmony concept answers in a verified skill",
+      "ts": "2026-10-03T20:55:24Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/pull/805#issuecomment-5973398200"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:42:30Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973298474"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Measurements at b3cbbf5:\n\n**Replay.** The 8 evaluator inputs from earlier live logs whose goal says \"named X\" were run against the branch build's `examplesOf` + `checkExamples`:\n\n| Goal | Judge | Exam",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:40:25Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973282552"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- cross-review -->\n### Cross-review @ `b3cbbf5`\n\n**Verdict: clean.** The strictest counted vote wins; advisory votes are shown but not counted. A reviewer with no vote on this commit is not counted",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:39:49Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973278050"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ b3cbbf580534ada3a2d0adbfa3655a56125574e2\n\nNo findings. I read the regex change and the group fallback against the rest of examplesOf. I did not build the project or run the ",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:39:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973276575"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:38:54Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973271067"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | b3",
+      "title": "fix: take the examples of a function or tool the goal names without a signature",
+      "ts": "2026-10-03T20:38:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378#issuecomment-5973270122"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 378,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-10-03T20:38:40Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/378"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-03T20:38:08Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/37152219944",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1183,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(streeling): MUS-010 scale patterns, sets and the interval vector (EN/FR/ES)",
+      "ts": "2026-10-03T19:50:18Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1183#issuecomment-5972877522"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1183,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(streeling): MUS-010 scale patterns, sets and the interval vector (EN/FR/ES)",
+      "ts": "2026-10-03T19:50:14Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1183#issuecomment-5972877070"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1183,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-03T19:50:05Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1183"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 222,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "fix: lane activity residuals: watcher loops on a sensor usage error, one-verb comments, unbound fixture refusals",
+      "ts": "2026-10-03T18:02:50Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/222"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 216,
+      "repo": "GuitarAlchemist/gaia",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-03T18:01:42Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/216#pullrequestreview-5401979487"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 221,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "Two more, from the PR #218 R1 Spec review on 2026-10-03. They happened during a full `node --test` on a scratch copy of `1f77196`, on pinned Node v26.8.1, while mutant runs and three other reviewers l",
+      "title": "test: four tests fail transiently on Windows or under parallel load",
+      "ts": "2026-10-03T18:00:14Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/221#issuecomment-5971926630"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 221,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "A fifth instance, seen on 2026-10-03 in the PR #218 R1 Standards review (`a full node --test` on `1f77196`, pinned Node v26.8.1, four reviewers running concurrently on one machine).\n\n- Test: `tests/lo",
+      "title": "test: four tests fail transiently on Windows or under parallel load",
+      "ts": "2026-10-03T17:59:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/221#issuecomment-5971924255"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 216,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat: lane activity axis read from wmux agent-state (#214)",
+      "ts": "2026-10-03T17:56:50Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/216#issuecomment-5971897806"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1181,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-03T17:34:20Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1181#pullrequestreview-5401888616"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 217,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "The out-of-scope CI findings measured for this issue now have their own issues: #219 (`discovery` required vs. \"not a gate\"), #220 (body edits re-run the whole CI workflow; 34 of 104 PR runs re-tested",
+      "title": "feat: verify:head — the factory's verification as a durable receipt for any committed head (R0)",
+      "ts": "2026-10-03T17:31:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/217#issuecomment-5971685059"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 221,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "test: four tests fail transiently on Windows or under parallel load",
+      "ts": "2026-10-03T17:31:47Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/221"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 220,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "ci: a PR body edit re-runs the whole CI workflow, not only the gate that reads the body",
+      "ts": "2026-10-03T17:31:45Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/220"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 219,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "ci: `discovery` is a required check while ci.yml says it is not a gate",
+      "ts": "2026-10-03T17:31:43Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/219"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1181,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(streeling): MUS-013 root, bass and pitch-class set (EN/FR/ES)",
+      "ts": "2026-10-03T17:31:08Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1181#issuecomment-5971678947"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1181,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(streeling): MUS-013 root, bass and pitch-class set (EN/FR/ES)",
+      "ts": "2026-10-03T17:31:07Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1181#issuecomment-5971678836"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1181,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-03T17:30:55Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1181"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 218,
+      "repo": "GuitarAlchemist/gaia",
+      "title": null,
+      "ts": "2026-10-03T17:17:36Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/218"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 217,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: verify:head — the factory's verification as a durable receipt for any committed head (R0)",
+      "ts": "2026-10-03T17:03:45Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/217"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "enhancement",
+      "number": 217,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: verify:head — the factory's verification as a durable receipt for any committed head (R0)",
+      "ts": "2026-10-03T17:03:45Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/217"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 216,
+      "repo": "GuitarAlchemist/gaia",
+      "title": null,
+      "ts": "2026-10-03T16:38:00Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/216"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 215,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: deterministic eval corpus and scorer for the drain reviewer's verdicts (R0)",
+      "ts": "2026-10-03T16:11:01Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/215"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "enhancement",
+      "number": 215,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "feat: deterministic eval corpus and scorer for the drain reviewer's verdicts (R0)",
+      "ts": "2026-10-03T16:11:01Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/215"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1180,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(streeling): MUS-012 chord formulas, essential tones and doubling (EN/FR/ES)",
+      "ts": "2026-10-03T01:36:05Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1180#issuecomment-5964165920"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1180,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "feat(streeling): MUS-012 chord formulas, essential tones and doubling (EN/FR/ES)",
+      "ts": "2026-10-03T01:36:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1180#issuecomment-5964165632"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 365,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `warn`\n\nRisk score: `0.30`\n\n## PR Review Summary\n\nWarn: risk score 0.30; reviewer attention recommended.\n\nAction: Review the ",
+      "title": "feat(router-spike): Jev Stage 4 on human-written Music Stack Exchange titles",
+      "ts": "2026-10-02T05:29:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/365#issuecomment-5946156076"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 40,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "ci: run under the merge queue",
+      "ts": "2026-09-25T12:29:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/40#issuecomment-5832381441"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 40,
+      "repo": "GuitarAlchemist/hari",
+      "title": null,
+      "ts": "2026-09-25T12:29:42Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/40"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "## `hari-extractor live smoke` — diagnosis and what changed\n\n**This is not a regression from this PR, and not a flake. The `INCEPTION_API_KEY` repo secret is dead.**\n\n### Evidence\n\nBoth failures are t",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-17T22:54:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5722300569"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 39,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "Response to the adversarial review (5203174888), fixed in 50614aa (new commit, no force-push):\n\n- **P2, dead-on-arrival `==` literals:** `check_predicate` now refuses quoted (`== \"green\"`, `== 'green'",
+      "title": "fix(forecast): refuse unscorable predicates at emit, not at horizon",
+      "ts": "2026-09-14T21:48:17Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/39#issuecomment-5671271129"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 39,
+      "repo": "GuitarAlchemist/hari",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-09-14T21:38:55Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/39#pullrequestreview-5203174888"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "Reply to the [adversarial review](https://github.com/GuitarAlchemist/hari/pull/37#pullrequestreview-5202952981). Everything is addressed in 322738d, a new commit with no force-push. The PR body is upd",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-14T21:29:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5671061693"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 39,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage).\nTo continue using code reviews, you c",
+      "title": "fix(forecast): refuse unscorable predicates at emit, not at horizon",
+      "ts": "2026-09-14T21:21:01Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/39#issuecomment-5670974001"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 39,
+      "repo": "GuitarAlchemist/hari",
+      "title": null,
+      "ts": "2026-09-14T21:20:57Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/39"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-09-14T21:12:59Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#pullrequestreview-5202952981"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "## CI status on this PR: both red checks are pre-existing on `main`, not caused by this diff\n\n### 1. `cargo test --all (ubuntu-latest, stable)`\n\nCI's stable toolchain is now **Rust 1.98.0**, and its c",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-14T21:03:22Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5670774840"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 38,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage).\nTo continue using code reviews, you c",
+      "title": "fix(clippy): Rust 1.98 drain_collect breaks CI on main (two sites)",
+      "ts": "2026-09-14T21:01:55Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/38#issuecomment-5670758633"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 38,
+      "repo": "GuitarAlchemist/hari",
+      "title": null,
+      "ts": "2026-09-14T21:01:50Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/38"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 29,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "_Updated 2026-09-14 21:32Z after the adversarial review on ix#341. Runs now come from the Actions API, because `gh run list --event schedule` returned stale runs. Failure streaks are no longer capped ",
+      "title": "[Ecosystem] Loop triage: 33 of 48 feedback loops are starved, dead, or write-only",
+      "ts": "2026-09-14T13:17:05Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/issues/29#issuecomment-5664583291"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 13,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "## `hari-from-ix-autoresearch`: what the adapter does and what the instrument shows\n\n**PRs:**\n- Hari: https://github.com/GuitarAlchemist/hari/pull/37\n- IX: https://github.com/GuitarAlchemist/ix/pull/3",
+      "title": "[Story][Hari][P0] Run real IX autoresearch benchmark comparisons through Hari",
+      "ts": "2026-09-14T13:06:58Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/issues/13#issuecomment-5664444702"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "Companion IX PR: https://github.com/GuitarAlchemist/ix/pull/339. It points SCHEMA.md at this adapter and fixes a contract-test bug in IX's reference derived view: it collapsed every claim in a run int",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-14T13:06:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5664444413"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage).\nTo continue using code reviews, you c",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-14T13:06:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5664434703"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "title": null,
+      "ts": "2026-09-14T13:06:07Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37"
+    }
+  ]
+}
