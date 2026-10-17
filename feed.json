@@ -1,0 +1,1008 @@
+{
+  "generated_at": "2026-10-17T18:59:38Z",
+  "count": 99,
+  "events": [
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-17T16:29:42Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/39049489518",
+      "workflow": "Ecosystem Freshness"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 387,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "docs(plans): MSRV audit of each member's declared dependency closure (F4 follow-up)",
+      "ts": "2026-10-17T16:03:49Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/387#issuecomment-6236286237"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 387,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-17T15:55:43Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/387#pullrequestreview-5558621213"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-17T15:53:23Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/39046989724",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 387,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"7e57d8f0efd0dc873cf7afdd38fd4b85c6377fa7\",\"has_any_findings\":true,\"has_unresolved_findings\":true,\"st",
+      "title": "docs(plans): MSRV audit of each member's declared dependency closure (F4 follow-up)",
+      "ts": "2026-10-17T15:53:03Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/387#issuecomment-6236125982"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 387,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-10-17T15:52:46Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/387"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-17T15:28:50Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/39045186751",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-17T15:01:13Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/39043184432",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-17T10:12:25Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/39023982890",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Chatbot QA snapshot degraded — 2026-10-17\n\nThe Chatbot QA snapshot workflow could not measure a real `pass_pct` today.\n\n- `ollama_ok`: false\n- `optic_ok`: true\n- `pass_pct`: `null`\n- `last_known_go",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-10-17T09:51:11Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328#issuecomment-6232487724"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "feat/ix-loop",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-10-17T04:59:54Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/39003961189",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-17T04:49:20Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/39003967389",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 383,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-17T04:48:58Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/383#pullrequestreview-5556269803"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 383,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-17T04:48:57Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/383#pullrequestreview-5556269670"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 383,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-17T04:48:55Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/383#pullrequestreview-5556269504"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 386,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "# Astra review 3 addendum: R2-1 closed\n\nIndependent static AI review by **Astra via Gaia**. This comment records a source-review conclusion, not a formal GitHub pull-request approval. No tests were re",
+      "title": "Astra review: ix-recover tracer at 3d590439",
+      "ts": "2026-10-17T04:47:39Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/386#issuecomment-6229806752"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 384,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-17T04:46:16Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/384#pullrequestreview-5556259917"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "feat/comfyui-pack-release",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-10-17T04:41:30Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/39002823827",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "feat/ix-knot-diagram",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-10-17T04:40:36Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/39002785218",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "feat/ix-knot-braid",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-10-17T04:37:58Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/39002630812",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-17T04:32:27Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/39002917212",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "master",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/Demerzel",
+      "ts": "2026-10-17T04:31:06Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/actions/runs/39002831595",
+      "workflow": "QA Tribunal Panel (multi-persona)"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 386,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "# Astra review 2: ix-recover fixes\n\nIndependent static AI review by **Astra via Gaia**. This comment is a review record, not a formal GitHub pull-request review. No tests were rerun for this review or",
+      "title": "Astra review: ix-recover tracer at 3d590439",
+      "ts": "2026-10-17T04:25:02Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/386#issuecomment-6229605860"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 386,
+      "repo": "GuitarAlchemist/ix",
+      "title": "Astra review: ix-recover tracer at 3d590439",
+      "ts": "2026-10-17T03:24:08Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ix/issues/386"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-17T03:09:25Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/38997671108",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:35:02Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554396906"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:34:55Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554396339"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:30:32Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554369813"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "fix: a benchmark solution that failed its property tests is no success in the outcome store",
+      "ts": "2026-10-16T22:28:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398#issuecomment-6225900144"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:27:23Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554351004"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 390,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:26:00Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/390#pullrequestreview-5554342288"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- cross-review -->\n### Cross-review @ `2117619`\n\n**Verdict: clean.** The strictest counted vote wins; advisory votes are shown but not counted. A reviewer with no vote on this commit is not counted",
+      "title": "fix: a benchmark solution that failed its property tests is no success in the outcome store",
+      "ts": "2026-10-16T22:25:07Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398#issuecomment-6225854083"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ 211761963f8736fc85289eb49fb0f3a028489f74\n\nNo findings. The change matches SelfTrain's filter (`PropertiesValidated <> Some false`). The test covers the Some false, Some true",
+      "title": "fix: a benchmark solution that failed its property tests is no success in the outcome store",
+      "ts": "2026-10-16T22:24:54Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398#issuecomment-6225851322"
+    },
+    {
+      "actor": "netlify[bot]",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *effervescent-tarsier-eb227e* canceled.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 21",
+      "title": "fix: a benchmark solution that failed its property tests is no success in the outcome store",
+      "ts": "2026-10-16T22:24:48Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398#issuecomment-6225850013"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 390,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ ae59903c3c4a4a0aa9d2d10ee1e9b68993f4b689\n\nDocs-only change (ADR 0005 and a CONTEXT.md update). I found no code or behavior defects. I did not check the ADR's code claims one",
+      "title": "docs: ADR 0005, park the self-improvement loops that have no verified signal",
+      "ts": "2026-10-16T22:24:26Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/390#issuecomment-6225845515"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"211761963f8736fc85289eb49fb0f3a028489f74\",\"has_any_findings\":false,\"has_unresolved_findings\":false,\"",
+      "title": "fix: a benchmark solution that failed its property tests is no success in the outcome store",
+      "ts": "2026-10-16T22:24:19Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398#issuecomment-6225844072"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 398,
+      "repo": "GuitarAlchemist/tars",
+      "title": null,
+      "ts": "2026-10-16T22:24:06Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/398"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "docs/adr-0005-park-disconnected-loops",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/tars",
+      "ts": "2026-10-16T22:21:54Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/tars/actions/runs/38974775771",
+      "workflow": "Agent Blackbox"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:19:37Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554301884"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 390,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:19:04Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/390#pullrequestreview-5554298545"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 390,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ b33f5c4b7b4b06a92f55e5b5968706b47755ecea\n\nDocs-only change (ADR 0005 and CONTEXT.md). I spot-checked several code claims and they hold: `Score = 0.5` in TraceCompiler, `Map.",
+      "title": "docs: ADR 0005, park the self-improvement loops that have no verified signal",
+      "ts": "2026-10-16T22:17:34Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/390#issuecomment-6225759638"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 390,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:16:41Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/390#pullrequestreview-5554283827"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T22:16:33Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#pullrequestreview-5554282905"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `warn`\n\nRisk score: `0.30`\n\n## PR Review Summary\n\nWarn: risk score 0.30; reviewer attention recommended.\n\nAction: Review the ",
+      "title": "feat(streeling): open the Department of IX Research, with IXR-001",
+      "ts": "2026-10-16T22:16:24Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#issuecomment-6225744908"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"3fa4b3a808d1d4c3f147ed9af6ca73d819f2a4ab\",\"has_any_findings\":true,\"has_unresolved_findings\":true,\"st",
+      "title": "feat(streeling): open the Department of IX Research, with IXR-001",
+      "ts": "2026-10-16T22:16:21Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233#issuecomment-6225744184"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1233,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-16T22:16:12Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1233"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "main",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ga",
+      "ts": "2026-10-16T21:41:31Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ga/actions/runs/38971016551",
+      "workflow": "Auto-Update Demerzel Submodule"
+    },
+    {
+      "actor": "spareilleux",
+      "branch": "fix/duckdb-zip-yank",
+      "conclusion": "failure",
+      "repo": "GuitarAlchemist/ix",
+      "ts": "2026-10-16T20:19:53Z",
+      "type": "ci",
+      "url": "https://github.com/GuitarAlchemist/ix/actions/runs/38958799798",
+      "workflow": "ix-duck chatbot gate"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 385,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.15`\n\n## PR Review Summary\n\nPass: risk score 0.15; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "fix(ix-duck): pin duckdb-rs 1.10506.1, whose build needs zip ^9",
+      "ts": "2026-10-16T19:50:35Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/385#issuecomment-6223467288"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 385,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"6374a36880f03bf0d7704edaf540fc79c072228c\",\"has_any_findings\":false,\"has_unresolved_findings\":false,\"",
+      "title": "fix(ix-duck): pin duckdb-rs 1.10506.1, whose build needs zip ^9",
+      "ts": "2026-10-16T19:43:02Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/385#issuecomment-6223347277"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 385,
+      "repo": "GuitarAlchemist/ix",
+      "title": null,
+      "ts": "2026-10-16T19:42:53Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/385"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 384,
+      "repo": "GuitarAlchemist/ix",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T19:17:49Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/384#pullrequestreview-5552237785"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 384,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `warn`\n\nRisk score: `0.40`\n\n## PR Review Summary\n\nWarn: risk score 0.40; reviewer attention recommended.\n\nAction: Review the ",
+      "title": "feat(ix-voice): IX client and CLI of the local voice service (ADR-0013)",
+      "ts": "2026-10-16T18:48:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/384#issuecomment-6222451355"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 384,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"ca278f5369ca621e91428a58300270e7611376a2\",\"has_any_findings\":true,\"has_unresolved_findings\":true,\"st",
+      "title": "feat(ix-voice): IX client and CLI of the local voice service (ADR-0013)",
+      "ts": "2026-10-16T18:39:46Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/384#issuecomment-6222298894"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 382,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"fa3987be4a55d11ac0a23d1ff1258c94b4e6cbe8\",\"has_any_findings\":true,\"has_unresolved_findings\":true,\"st",
+      "title": "feat(ix-origami): .origami folding sequences, replayed and checked (ADR-0010)",
+      "ts": "2026-10-16T17:51:10Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/382#issuecomment-6221436648"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 396,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T17:28:19Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/396#pullrequestreview-5548291603"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 396,
+      "repo": "GuitarAlchemist/tars",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-16T13:34:36Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/396#pullrequestreview-5548371779"
+    },
+    {
+      "actor": "claude[bot]",
+      "number": 396,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "Cross-review vote: clean @ c25f7212844e93776aac59d2960e64e53391f351\n\nNo findings. I read the diff and checked the surrounding code in Evolve.fs. I did not build the project or run the tests.",
+      "title": "feat: count an evolve run's Claude calls by role, against ADR 0005's budget",
+      "ts": "2026-10-16T13:27:51Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/396#issuecomment-6216538116"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 396,
+      "repo": "GuitarAlchemist/tars",
+      "snippet": "The budget rule went through three versions on this PR. The final one is in c9c5116c:\n\n- **Run as asked** (`--loop` times `--max-iterations`), 4ff7eb22. Claude's P3 was right that it is wrong: a step ",
+      "title": "feat: count an evolve run's Claude calls by role, against ADR 0005's budget",
+      "ts": "2026-10-16T13:26:37Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/tars/pull/396#issuecomment-6216515876"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 380,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `fail`\n\nRisk score: `0.65`\n\n## PR Review Summary\n\nFail: risk score 0.65; human review is required.\n\nAction: Do not merge unti",
+      "title": "chore(claude): allow read-only commands and tools without a prompt",
+      "ts": "2026-10-16T13:09:59Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/380#issuecomment-6216215994"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 380,
+      "repo": "GuitarAlchemist/ix",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"b58146bb7f72ce4788bfba8f3fe7570f9864855e\",\"has_any_findings\":true,\"has_unresolved_findings\":true,\"st",
+      "title": "chore(claude): allow read-only commands and tools without a prompt",
+      "ts": "2026-10-16T13:09:40Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ix/pull/380#issuecomment-6216210287"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 255,
+      "repo": "GuitarAlchemist/gaia",
+      "title": null,
+      "ts": "2026-10-16T13:04:23Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/255"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Chatbot QA snapshot degraded — 2026-10-16\n\nThe Chatbot QA snapshot workflow could not measure a real `pass_pct` today.\n\n- `ollama_ok`: false\n- `optic_ok`: true\n- `pass_pct`: `null`\n- `last_known_go",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-10-16T10:17:20Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328#issuecomment-6213293001"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-15T19:25:06Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#pullrequestreview-5534998750"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-15T19:23:01Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#pullrequestreview-5534956484"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-15T19:11:52Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#pullrequestreview-5535043817"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-15T18:34:45Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#pullrequestreview-5535046291"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-15T18:34:37Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#pullrequestreview-5535044257"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "Codex Review: Didn't find any major issues. Delightful!\n\n**Reviewed commit:** `90ec36b021`\n\n<details> <summary>ℹ️ About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requ",
+      "title": "feat(streeling): French and Spanish of PSY-016 to PSY-025",
+      "ts": "2026-10-15T14:50:43Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#issuecomment-6194970925"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "@codex review",
+      "title": "feat(streeling): French and Spanish of PSY-016 to PSY-025",
+      "ts": "2026-10-15T14:47:27Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#issuecomment-6194900176"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1225,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "fix(streeling): correct the relative depth of nine out-of-corpus links",
+      "ts": "2026-10-15T14:42:39Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1225#issuecomment-6194797262"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1225,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `pass`\n\nRisk score: `0.00`\n\n## PR Review Summary\n\nPass: risk score 0.00; no blocking findings.\n\nAction: Proceed with normal r",
+      "title": "fix(streeling): correct the relative depth of nine out-of-corpus links",
+      "ts": "2026-10-15T14:42:38Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1225#issuecomment-6194797075"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1225,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-15T14:42:24Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1225"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(streeling): French and Spanish of PSY-016 to PSY-025",
+      "ts": "2026-10-15T14:41:13Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#issuecomment-6194767639"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "snippet": "<!-- agent-blackbox-risk-report -->\n# Agent Blackbox Risk Report\n\nVerdict: `warn`\n\nRisk score: `0.60`\n\n## PR Review Summary\n\nWarn: risk score 0.60; reviewer attention recommended.\n\nAction: Review the ",
+      "title": "feat(streeling): French and Spanish of PSY-016 to PSY-025",
+      "ts": "2026-10-15T14:41:10Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224#issuecomment-6194766641"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 1224,
+      "repo": "GuitarAlchemist/Demerzel",
+      "title": null,
+      "ts": "2026-10-15T14:40:54Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/Demerzel/pull/1224"
+    },
+    {
+      "action": "opened",
+      "actor": "claude[bot]",
+      "label": null,
+      "number": 836,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[arch-refinement] frontend: IxHandVoicingLab fabricates fretboard-contact scoring + orphaned RtxMegaGeometry module",
+      "ts": "2026-10-15T12:07:56Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/836"
+    },
+    {
+      "actor": "github-actions[bot]",
+      "number": 836,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "🤖 Hi @claude[bot], I've received your request, and I'm working on it now! You can track my progress [in the logs](https://github.com/GuitarAlchemist/ga/actions/runs/38732324874) for more details.",
+      "title": "[arch-refinement] frontend: IxHandVoicingLab fabricates fretboard-contact scoring + orphaned RtxMegaGeometry module",
+      "ts": "2026-10-15T12:07:56Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/836#issuecomment-6191674182"
+    },
+    {
+      "action": "labeled",
+      "actor": "claude[bot]",
+      "label": "needs-triage",
+      "number": 836,
+      "repo": "GuitarAlchemist/ga",
+      "title": "[arch-refinement] frontend: IxHandVoicingLab fabricates fretboard-contact scoring + orphaned RtxMegaGeometry module",
+      "ts": "2026-10-15T12:07:48Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/836"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Chatbot QA snapshot degraded — 2026-10-15\n\nThe Chatbot QA snapshot workflow could not measure a real `pass_pct` today.\n\n- `ollama_ok`: false\n- `optic_ok`: true\n- `pass_pct`: `null`\n- `last_known_go",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-10-15T10:29:43Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328#issuecomment-6189976996"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 252,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "spike: evaluate Mastra as an executor under the lane-attempt contract",
+      "ts": "2026-10-14T14:05:52Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/252"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 253,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "adr: what a lane attempt decides while its executor waits for a person",
+      "ts": "2026-10-14T13:53:21Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/253"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 254,
+      "repo": "GuitarAlchemist/gaia",
+      "title": null,
+      "ts": "2026-10-14T13:04:15Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/254"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "needs-triage",
+      "number": 253,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "adr: what a lane attempt decides while its executor waits for a person",
+      "ts": "2026-10-14T13:00:18Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/253"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "needs-triage",
+      "number": 252,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "spike: evaluate Mastra as an executor under the lane-attempt contract",
+      "ts": "2026-10-14T13:00:10Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/252"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 328,
+      "repo": "GuitarAlchemist/ga",
+      "snippet": "## Chatbot QA snapshot degraded — 2026-10-14\n\nThe Chatbot QA snapshot workflow could not measure a real `pass_pct` today.\n\n- `ollama_ok`: false\n- `optic_ok`: true\n- `pass_pct`: `null`\n- `last_known_go",
+      "title": "[meta] Chatbot QA degradation",
+      "ts": "2026-10-14T10:47:10Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga/issues/328#issuecomment-6166606412"
+    },
+    {
+      "action": "closed",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 248,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "fix: the Pi worker's whitespace gate obeys ambient Git configuration",
+      "ts": "2026-10-14T03:14:26Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/248"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 248,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "Fixed by #250, merged as 0c53129. The two `git apply --whitespace=error-all` calls in `src/factory-agent.mjs` now pin `core.whitespace` (Git's default rule) and `core.attributesFile` (the null device)",
+      "title": "fix: the Pi worker's whitespace gate obeys ambient Git configuration",
+      "ts": "2026-10-14T03:14:22Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/248#issuecomment-6160058160"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 250,
+      "repo": "GuitarAlchemist/gaia",
+      "state": "commented",
+      "title": null,
+      "ts": "2026-10-14T02:51:55Z",
+      "type": "review",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/250#pullrequestreview-5512503925"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 250,
+      "repo": "GuitarAlchemist/gaia",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "fix: pin the Pi worker's whitespace gate against ambient Git configuration (#248)",
+      "ts": "2026-10-14T02:47:43Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/gaia/pull/250#issuecomment-6159757075"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 251,
+      "repo": "GuitarAlchemist/gaia",
+      "title": "fix: the factory's cleanliness check obeys ambient Git configuration",
+      "ts": "2026-10-13T21:42:59Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/gaia/issues/251"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "enhancement",
+      "number": 6,
+      "repo": "GuitarAlchemist/ga-godot",
+      "title": "[Epic][GA-Godot] CP3D Construct: enter from Observatory and inspect a mission",
+      "ts": "2026-10-09T21:03:16Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga-godot/issues/6"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "label": null,
+      "number": 6,
+      "repo": "GuitarAlchemist/ga-godot",
+      "title": "[Epic][GA-Godot] CP3D Construct: enter from Observatory and inspect a mission",
+      "ts": "2026-10-09T21:03:02Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga-godot/issues/6"
+    },
+    {
+      "action": "labeled",
+      "actor": "spareilleux",
+      "label": "enhancement",
+      "number": 6,
+      "repo": "GuitarAlchemist/ga-godot",
+      "title": "[Epic][GA-Godot] CP3D Construct: enter from Observatory and inspect a mission",
+      "ts": "2026-10-09T21:03:02Z",
+      "type": "issue",
+      "url": "https://github.com/GuitarAlchemist/ga-godot/issues/6"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 5,
+      "repo": "GuitarAlchemist/ga-godot",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "feat(scene): rope grommet moon rings behind governance:render",
+      "ts": "2026-10-06T23:58:32Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/ga-godot/pull/5#issuecomment-6027747119"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 5,
+      "repo": "GuitarAlchemist/ga-godot",
+      "title": null,
+      "ts": "2026-10-06T23:58:18Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/ga-godot/pull/5"
+    },
+    {
+      "actor": "chatgpt-codex-connector[bot]",
+      "number": 40,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --",
+      "title": "ci: run under the merge queue",
+      "ts": "2026-09-25T12:29:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/40#issuecomment-5832381441"
+    },
+    {
+      "action": "opened",
+      "actor": "spareilleux",
+      "number": 40,
+      "repo": "GuitarAlchemist/hari",
+      "title": null,
+      "ts": "2026-09-25T12:29:42Z",
+      "type": "pr",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/40"
+    },
+    {
+      "actor": "spareilleux",
+      "number": 37,
+      "repo": "GuitarAlchemist/hari",
+      "snippet": "## `hari-extractor live smoke` — diagnosis and what changed\n\n**This is not a regression from this PR, and not a flake. The `INCEPTION_API_KEY` repo secret is dead.**\n\n### Evidence\n\nBoth failures are t",
+      "title": "feat(extractor): hari-from-ix-autoresearch — recorded IX runs replayed through Hari (#13)",
+      "ts": "2026-09-17T22:54:52Z",
+      "type": "comment",
+      "url": "https://github.com/GuitarAlchemist/hari/pull/37#issuecomment-5722300569"
+    }
+  ]
+}
